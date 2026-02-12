@@ -6,7 +6,6 @@ from transcribe import transcribe
 from ollama_analyze import get_important_segments
 from clip_video import clip_video
 
-video_path = "/Users/akshat/Desktop/ANKITAS_SAMPLE.mp4"
 def merge_clips():
     os.makedirs("output", exist_ok=True)
 
