@@ -1,44 +1,66 @@
-import sys
-import os
+import os 
 import subprocess
-
+import sys
+import json
+from chunker import split_video
 from transcribe import transcribe
-from ollama_analyze import get_important_segments
-from clip_video import clip_video
+from ollama_analyze import get_ml_teaching_segments
+from clip_video import clip_videos
+
+
+def merge_overlapping_segments(segments, gap=3.0):
+    """Merge overlapping segments: {10-19, 20-34} -> {10-34}"""
+    if not segments:
+        return []
+
+    segments = sorted(segments, key=lambda x: x["start"])
+    merged = [segments[0]]
+
+    for seg in segments[1:]:
+        last = merged[-1]
+        if seg["start"] <= last["end"] + gap:
+            last["end"] = max(last["end"], seg["end"])
+        else:
+            merged.append(seg)
+
+    return merged
+
 
 def merge_clips():
     os.makedirs("output", exist_ok=True)
 
-    clip_dir = "clips"
+    clip_paths = []
 
-    # Get all clip files
-    clip_files = sorted([
-        os.path.join(clip_dir, f)
-        for f in os.listdir(clip_dir)
-        if f.endswith(".mp4")
-    ])
+    for root, _, files in os.walk("clips"):
+        for f in files:
+            if f.endswith(".mp4"):
+                clip_paths.append(os.path.join(root, f))
 
-    if not clip_files:
+    if not clip_paths:
         print("No clips found!")
         return
 
-    # Create list.txt INSIDE clips folder
-    list_path = os.path.join(clip_dir, "list.txt")
+    list_path = "clips/list.txt"
 
     with open(list_path, "w") as f:
-        for clip in clip_files:
-            clip_name = os.path.basename(clip)   # IMPORTANT
-            f.write(f"file '{clip_name}'\n")
+        for clip in sorted(clip_paths):
+            f.write(f"file '{os.path.abspath(clip)}'\n")
 
-    # Run ffmpeg
     subprocess.run([
         "ffmpeg", "-y",
         "-f", "concat",
         "-safe", "0",
         "-i", list_path,
-        "-c", "copy",
+        "-map", "0:v:0?",
+        "-map", "0:a:0?",
+        "-c:v", "libx264",
+        "-preset", "fast",
+        "-crf", "23",
+        "-c:a", "aac",
+        "-movflags", "+faststart",
         "output/final.mp4"
-    ])
+    ], check=True)
+
 
 
 def main():
@@ -48,38 +70,82 @@ def main():
 
     video_path = sys.argv[1]
 
-    if not os.path.exists(video_path):
-        print("Video file not found:", video_path)
-        return
+    print("Splitting long video...")
+    chunks = split_video(video_path, chunk_minutes=8)
 
-    print("Transcribing video...")
-    segments = transcribe(video_path)
+    chunk_seconds = 8 * 60  # 8 minutes per chunk
 
-    print("Analyzing important parts with Ollama...")
-    important_segments = get_important_segments(segments)
+    for idx, chunk in enumerate(chunks):
+        print(f"\nProcessing chunk {idx+1}/{len(chunks)}")
 
-    # Normalize Ollama output
-    normalized_segments = []
+        chunk_name = os.path.splitext(os.path.basename(chunk))[0]
+        chunk_start = idx * chunk_seconds  # absolute start for this chunk
 
-    for seg in important_segments:
-        if isinstance(seg, dict):
-            normalized_segments.append(seg)
-        elif isinstance(seg, (int, float)):
-            normalized_segments.append({
-                "start": float(seg),
-                "end": float(seg) + 10
+        # Transcribe with absolute timestamps
+        segments = transcribe(chunk, chunk_name, chunk_start)
+        print("Transcribing.....")
+
+        # Ollama analysis
+        important = get_ml_teaching_segments(segments)
+        print("getting ml segments")
+        
+
+        # FIX 1: enforce minimum segment length
+        MIN_SEGMENT_LEN = 8.0  # seconds
+        fixed = []
+        for seg in important:
+            length = seg["end"] - seg["start"]
+            if length < MIN_SEGMENT_LEN:
+                fixed.append({
+                    "start": seg["start"],
+                    "end": seg["start"] + MIN_SEGMENT_LEN,
+                    "text": seg.get("text", "")
+                })
+            else:
+                fixed.append(seg)
+
+        important = fixed
+
+        important = merge_overlapping_segments(important, gap=0.3)
+        total = sum(seg["end"] - seg["start"] for seg in important)
+        if total < 30:
+            print(f"⚠️ Ollama weak on {chunk_name}, applying fallback")
+
+            important = []
+            for seg in segments:  # Whisper segments
+                if seg["end"] - seg["start"] >= 6:
+                    important.append({
+                        "start": seg["start"],
+                        "end": seg["end"],
+                        "text": seg["text"]
+                    }) 
+
+
+
+        # Save per-chunk Ollama-selected segments
+        os.makedirs("selections", exist_ok=True)
+        with open(f"selections/{chunk_name}_segments.json", "w") as f:
+            json.dump(important, f, indent=2)
+
+
+        # Convert absolute → chunk-local timestamps
+        local_segments = []
+        for seg in important:
+            local_segments.append({
+                "start": max(0.0, seg["start"] - chunk_start),
+                "end": max(0.0, seg["end"] - chunk_start)
             })
 
-    important_segments = normalized_segments
+        clip_videos(chunk, local_segments, clip_dir=f"clips/{chunk_name}")
 
-    print("Clipping video...")
-    clip_video(video_path, important_segments)
 
-    print("Merging clips...")
+
+    print("Merging all clips...")
     merge_clips()
-
-    print("DONE! Output saved to output/final.mp4")
+    print("DONE")
 
 
 if __name__ == "__main__":
     main()
+
+
