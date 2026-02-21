@@ -1,2 +1,2 @@
 # AI Semantic Video Condenser
-Extracts Key frames and Highlights from  given video locally on system. Used to make AV summaries from lecture videos. The project focuses on system integration, logic, and debugging.
+Built a video summarization and clipping tool that processes long videos by transcribing audio, sending text to a locally hosted Ollama LLM via its REST API, and extracting key segments into short clips. The project focused on system integration, logic, and debugging.
