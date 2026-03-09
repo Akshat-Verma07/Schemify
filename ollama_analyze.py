@@ -4,63 +4,57 @@ import re
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
-def get_ml_teaching_segments(segments):
+def get_ml_teaching_segments(segments,keywords):
     """
     segments: list of dicts {"start", "end", "text"}
     returns: list of dicts [{"start": float, "end": float}]
     """
     prompt = f"""
-You are an AI system extracting TEACHING content related to
-Artificial Intelligence, Machine Learning, and Data Science
-from a lecture transcript.
+You are analyzing a lecture transcript.
 
 GOAL:
-Select ALL segments that TEACH, EXPLAIN, or DISCUSS AI / ML concepts.
-Do NOT be overly selective.
+Select transcript segments that contain ACTUAL TEACHING related to the given topics.
 
-WHAT TO INCLUDE:
-- Definitions or explanations of AI / ML concepts
-- Step-by-step reasoning or intuition
-- Examples, analogies, or use-cases
-- Discussion of models, algorithms, training, evaluation, or errors
-- Follow-up explanations that continue an earlier idea
-- Segments referring to "this model", "this method", "this approach"
-- Verbal walkthroughs of ML pipelines or code logic
+TOPICS (context only, not strict keywords):
+{keywords}
 
-CORE TOPICS (examples, not strict keywords):
-Machine Learning, Artificial Intelligence, Deep Learning,
-Neural Networks, Supervised / Unsupervised Learning,
-Regression, Classification,
-Loss functions, Optimizers, Gradient Descent, Backpropagation,
-CNN, RNN, LSTM, Transformers,
-Training, Validation, Accuracy, RMSE,
-Overfitting, Regularization, Hyperparameters,
-Datasets, Features, Labels,
-NumPy, Pandas, PyTorch, TensorFlow, Scikit-learn
+IMPORTANT:
+A segment can still be relevant EVEN IF the keywords are not directly mentioned,
+as long as the explanation clearly belongs to the topics above.
 
-EXCLUDE ONLY:
-- Greetings, introductions, or conclusions with no teaching
-- Career advice, motivation, or personal stories
-- Jokes or casual chat
-- Silence, noise, hardware issues
+INCLUDE segments where the teacher is:
+- Explaining a concept
+- Giving definitions
+- Describing how something works
+- Walking through examples
+- Explaining algorithms, models, graphs, or methods
+- Continuing an explanation from a previous segment
 
-IMPORTANT BEHAVIOR:
-- If a segment is PROBABLY relevant, INCLUDE it
-- Prefer longer continuous teaching sections
-- Merge adjacent relevant segments naturally
-- Do NOT split explanations into tiny fragments
-- Aim for AT LEAST 30 seconds total per chunk if possible
+EXCLUDE segments that contain:
+- Greetings
+- Class introductions
+- Attendance checking
+- Personal stories
+- Career advice
+- Jokes or casual conversation
+- Classroom management (telling students to be quiet, settle down, etc.)
+- Random off-topic discussions
+- Conclusions without teaching
 
-OUTPUT RULES (STRICT):
-- Output ONLY valid JSON and should be in ORDER
+SEGMENT RULES:
+- Prefer continuous teaching blocks
+- Merge adjacent relevant segments
+- Do NOT split explanations into tiny pieces
+
+OUTPUT RULES:
+- Output ONLY valid JSON
 - No explanations
-- No comments
 - No markdown
 - No extra text
 
-OUTPUT FORMAT (exact):
+OUTPUT FORMAT:
 [
-  {{ "start": <float>, "end": <float>, "text":<str>}}
+  {{ "start": <float>, "end": <float>, "text": "<string>" }}
 ]
 
 TRANSCRIPT:
@@ -70,18 +64,19 @@ RETURN JSON ONLY:
 """
 
     payload = {
-        "model": "llama3.2:1b",
-        "prompt": prompt,
-        "stream": False,
-        "options": {
-            "temperature": 0.1
-        }
+    "model": "llama3.2",
+    "prompt": prompt,
+    "stream": False,
+    "options": {
+        "temperature": 0.1
     }
+}
 
 #rest api for calling ollama 
-    response = requests.post(OLLAMA_URL, json=payload, timeout=300)  # 5 min instead of 2
+    response = requests.post(OLLAMA_URL, json=payload, timeout=600)  # 5 min instead of 2
     #checks for runtime error  - model takes too much time to analyze
-
+    print("RAW OLLAMA RESPONSE:")
+    print(response.text)
     raw_text = response.json().get("response", "").strip()
 
     if not raw_text:
@@ -116,3 +111,77 @@ RETURN JSON ONLY:
                 })
 
     return cleaned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""GOAL:
+Extract ALL technically substantive teaching content related to AI / ML.
+Do NOT compress away algorithm names, mathematical expressions, model names,
+optimization techniques, or implementation details.
+
+DEPTH REQUIREMENT (MANDATORY):
+A segment MUST be included if it contains:
+- Any algorithm name (e.g., SVM, K-Means, HMM, Logistic Regression)
+- Any optimization method (Gradient Descent variants, Backpropagation)
+- Any mathematical concept (equations, hypothesis function, loss function)
+- Any model architecture reference
+- Any training/evaluation metric
+- Any theoretical construct (concept learning, hypothesis space, etc.)
+
+DO NOT:
+- Replace specific algorithm names with generic phrases like "a model"
+- Replace technical terms with abstractions
+- Omit mathematical reasoning for brevity
+- Remove step-by-step derivations
+
+STRICT PRIORITY:
+Technical depth > Brevity.
+
+If an explanation contains:
+- Algorithm mechanics
+- Mathematical formulation
+- Parameter update rules
+- Model comparison
+- Theoretical justification
+
+It MUST be included fully.
+
+SEGMENT LENGTH RULE:
+If a technical explanation spans multiple segments,
+merge them into one continuous block.
+Never cut a derivation midway.
+
+
+
+
+
+keyiowrds: Machine Learning, Artificial Intelligence, Deep Learning,
+Neural Networks, Supervised / Unsupervised Learning,
+Regression, Classification,
+Loss functions, Optimizers, Gradient Descent, Backpropagation,
+CNN, RNN, LSTM, Transformers,
+Training, Validation, Accuracy, RMSE,
+Overfitting, Regularization, Hyperparameters,
+Datasets, Features, Labels,
+NumPy, Pandas, PyTorch, TensorFlow, Scikit-learn"""
