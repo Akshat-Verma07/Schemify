@@ -1,0 +1,472 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.0,
+    "text": "excitement"
+  },
+  {
+    "start": 150.0,
+    "end": 166.52,
+    "text": "Good morning."
+  },
+  {
+    "start": 166.52,
+    "end": 170.2,
+    "text": "I chose the B section."
+  },
+  {
+    "start": 170.2,
+    "end": 175.4,
+    "text": "The reason being last time when I did ML, I had chosen B section and I found it to be good"
+  },
+  {
+    "start": 175.4,
+    "end": 177.56,
+    "text": "last to last year."
+  },
+  {
+    "start": 177.56,
+    "end": 184.56,
+    "text": "So I thought this time also I will choose B and take a chance and that is how I have come"
+  },
+  {
+    "start": 184.56,
+    "end": 186.56,
+    "text": "here."
+  },
+  {
+    "start": 186.56,
+    "end": 200.56,
+    "text": "Having said that now you all know that I will be teaching machine learning course for you."
+  },
+  {
+    "start": 200.56,
+    "end": 203.56,
+    "text": "You have to settle down quickly."
+  },
+  {
+    "start": 203.56,
+    "end": 204.88,
+    "text": "One protocol we have to follow."
+  },
+  {
+    "start": 204.88,
+    "end": 207.44,
+    "text": "The moment I start you have to be silent."
+  },
+  {
+    "start": 207.44,
+    "end": 211.44,
+    "text": "You cannot be doing your own work and then I just want speaking."
+  },
+  {
+    "start": 211.44,
+    "end": 213.44,
+    "text": "Are you done with all your jokes?"
+  },
+  {
+    "start": 213.44,
+    "end": 214.44,
+    "text": "Are you ready?"
+  },
+  {
+    "start": 214.44,
+    "end": 215.44,
+    "text": "You finish eating?"
+  },
+  {
+    "start": 215.44,
+    "end": 216.44,
+    "text": "Are you done?"
+  },
+  {
+    "start": 216.44,
+    "end": 217.44,
+    "text": "Shall I start?"
+  },
+  {
+    "start": 217.44,
+    "end": 218.44,
+    "text": "I am seeking your permission."
+  },
+  {
+    "start": 218.44,
+    "end": 219.44,
+    "text": "Are you done?"
+  },
+  {
+    "start": 219.44,
+    "end": 226.44,
+    "text": "You still have some jokes?"
+  },
+  {
+    "start": 226.44,
+    "end": 227.44,
+    "text": "Okay."
+  },
+  {
+    "start": 227.44,
+    "end": 235.16,
+    "text": "So I will be teaching machine learning course for you this semester as you have already received"
+  },
+  {
+    "start": 235.16,
+    "end": 237.16,
+    "text": "your timetable."
+  },
+  {
+    "start": 237.16,
+    "end": 240.16,
+    "text": "And this Monday I missed it out."
+  },
+  {
+    "start": 240.16,
+    "end": 241.16,
+    "text": "Sorry about this."
+  },
+  {
+    "start": 241.16,
+    "end": 242.16,
+    "text": "I had to attend a family function."
+  },
+  {
+    "start": 242.16,
+    "end": 244.16,
+    "text": "So I was not here."
+  },
+  {
+    "start": 244.16,
+    "end": 250.8,
+    "text": "And I am given to understand that Dr. Sirobhi came here and gave introduction to the session."
+  },
+  {
+    "start": 250.8,
+    "end": 254.68,
+    "text": "But again I will be doing a little bit of introduction to machine learning."
+  },
+  {
+    "start": 254.68,
+    "end": 259.16,
+    "text": "Before I start the first machine learning algorithm, if time permits I will start that."
+  },
+  {
+    "start": 259.16,
+    "end": 261.88,
+    "text": "Otherwise I will not be able to do that."
+  },
+  {
+    "start": 261.88,
+    "end": 268.36,
+    "text": "But I hope when I just inquired with her she said that machine learning types have not"
+  },
+  {
+    "start": 268.36,
+    "end": 269.36,
+    "text": "been covered."
+  },
+  {
+    "start": 269.36,
+    "end": 271.12,
+    "text": "Is my understanding correct?"
+  },
+  {
+    "start": 271.12,
+    "end": 275.12,
+    "text": "Supervised, unsupervised, reinforcement all these have not been covered."
+  },
+  {
+    "start": 275.12,
+    "end": 276.12,
+    "text": "Is that correct?"
+  },
+  {
+    "start": 276.12,
+    "end": 277.12,
+    "text": "Yes."
+  },
+  {
+    "start": 277.12,
+    "end": 280.36,
+    "text": "She gave an introduction in terms of applications and so on."
+  },
+  {
+    "start": 280.36,
+    "end": 281.88,
+    "text": "So that is what has been covered."
+  },
+  {
+    "start": 281.88,
+    "end": 287.44,
+    "text": "So I will give some introduction to machine learning and then we will start with the actual"
+  },
+  {
+    "start": 287.44,
+    "end": 290.6,
+    "text": "machine learning algorithm."
+  },
+  {
+    "start": 290.6,
+    "end": 292.6,
+    "text": "So let me begin."
+  },
+  {
+    "start": 292.6,
+    "end": 299.32,
+    "text": "Today I will give you the introduction followed by the ML algorithm."
+  },
+  {
+    "start": 299.32,
+    "end": 306.2,
+    "text": "I want you to understand where this actually sits in the computing realm."
+  },
+  {
+    "start": 306.2,
+    "end": 310.2,
+    "text": "So that understanding you should have."
+  },
+  {
+    "start": 310.2,
+    "end": 316.12,
+    "text": "You do not belong to this section."
+  },
+  {
+    "start": 316.12,
+    "end": 322.36,
+    "text": "I should wait for you."
+  },
+  {
+    "start": 322.36,
+    "end": 331.8,
+    "text": "Gen Z I have to do all this."
+  },
+  {
+    "start": 331.8,
+    "end": 338.84,
+    "text": "Suppose if I ask you to write a small C function to find the square of a given number."
+  },
+  {
+    "start": 338.84,
+    "end": 343.84,
+    "text": "How would you write?"
+  },
+  {
+    "start": 343.84,
+    "end": 350.2,
+    "text": "I do not want the main just the function."
+  },
+  {
+    "start": 350.2,
+    "end": 357.44,
+    "text": "I do not want just the function square of a number function."
+  },
+  {
+    "start": 357.44,
+    "end": 368.16,
+    "text": "It should be where parameter."
+  },
+  {
+    "start": 368.16,
+    "end": 369.16,
+    "text": "I am writing pseudo code."
+  },
+  {
+    "start": 369.16,
+    "end": 370.16,
+    "text": "I am writing pseudo code."
+  },
+  {
+    "start": 370.16,
+    "end": 372.16,
+    "text": "I am not writing the C."
+  },
+  {
+    "start": 372.16,
+    "end": 374.6,
+    "text": "Otherwise I should write in text and all of that."
+  },
+  {
+    "start": 374.6,
+    "end": 375.6,
+    "text": "I am not writing that."
+  },
+  {
+    "start": 375.6,
+    "end": 376.6,
+    "text": "It should return."
+  },
+  {
+    "start": 376.6,
+    "end": 385.2,
+    "text": "If you want you can write it in type or data type you can write."
+  },
+  {
+    "start": 385.2,
+    "end": 387.2,
+    "text": "Then what should be the?"
+  },
+  {
+    "start": 387.2,
+    "end": 388.2,
+    "text": "Yes."
+  },
+  {
+    "start": 388.2,
+    "end": 390.44,
+    "text": "Return x into a."
+  },
+  {
+    "start": 390.44,
+    "end": 395.72,
+    "text": "But I deliberately chose an algorithm."
+  },
+  {
+    "start": 395.72,
+    "end": 396.72,
+    "text": "Why?"
+  },
+  {
+    "start": 396.72,
+    "end": 400.6,
+    "text": "This is how you will write it."
+  },
+  {
+    "start": 400.6,
+    "end": 401.6,
+    "text": "Is not it?"
+  },
+  {
+    "start": 401.6,
+    "end": 406.28,
+    "text": "If I want to square a number the input is x."
+  },
+  {
+    "start": 406.28,
+    "end": 408.2,
+    "text": "Most of the statements are C statements."
+  },
+  {
+    "start": 408.2,
+    "end": 411.8,
+    "text": "Let me make it as C and convert."
+  },
+  {
+    "start": 411.8,
+    "end": 412.8,
+    "text": "Okay."
+  },
+  {
+    "start": 412.8,
+    "end": 414.92,
+    "text": "So C proper C function."
+  },
+  {
+    "start": 414.92,
+    "end": 416.8,
+    "text": "Is this right?"
+  },
+  {
+    "start": 416.8,
+    "end": 420.04,
+    "text": "Everyone agrees to this."
+  },
+  {
+    "start": 420.04,
+    "end": 425.52,
+    "text": "Now if I want to find this the function is known to you."
+  },
+  {
+    "start": 425.52,
+    "end": 432.92,
+    "text": "If you want any input variable x value you will be able to find out the value of y."
+  },
+  {
+    "start": 432.92,
+    "end": 433.92,
+    "text": "Correct?"
+  },
+  {
+    "start": 433.92,
+    "end": 435.08,
+    "text": "You all agree."
+  },
+  {
+    "start": 435.08,
+    "end": 438.84,
+    "text": "So now I will pass on from the main."
+  },
+  {
+    "start": 438.84,
+    "end": 442.96,
+    "text": "From the main I will say square sum."
+  },
+  {
+    "start": 442.96,
+    "end": 448.08,
+    "text": "Square number I will say 5."
+  },
+  {
+    "start": 448.08,
+    "end": 451.04,
+    "text": "The answer will be returned in some k variable."
+  },
+  {
+    "start": 451.04,
+    "end": 452.04,
+    "text": "Let us say."
+  },
+  {
+    "start": 452.04,
+    "end": 455.48,
+    "text": "So k will get the value of 25."
+  },
+  {
+    "start": 455.48,
+    "end": 459.76,
+    "text": "So what is happening in this program?"
+  },
+  {
+    "start": 459.76,
+    "end": 462.32,
+    "text": "You are passing from number 5 input."
+  },
+  {
+    "start": 462.32,
+    "end": 466.72,
+    "text": "If you look at this function you are getting an input."
+  },
+  {
+    "start": 466.72,
+    "end": 468.52,
+    "text": "You are getting an output."
+  },
+  {
+    "start": 468.52,
+    "end": 469.52,
+    "text": "Very deterministic."
+  },
+  {
+    "start": 469.52,
+    "end": 471.44,
+    "text": "Isn't it?"
+  },
+  {
+    "start": 471.44,
+    "end": 478.16,
+    "text": "The value of x is given which is 5 and the output from that function is 25."
+  },
+  {
+    "start": 478.16,
+    "end": 479.88,
+    "text": "You are giving let us say 7."
+  },
+  {
+    "start": 479.88,
+    "end": 480.88,
+    "text": "The output is 49."
+  },
+  {
+    "start": 480.88,
+    "end": 483.12,
+    "text": "It is all very well known."
+  }
+]

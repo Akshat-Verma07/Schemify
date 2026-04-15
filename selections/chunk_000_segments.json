@@ -1,0 +1,22 @@
+[
+  {
+    "start": 254.68,
+    "end": 262.68,
+    "text": "Before I start the first machine learning algorithm, if time permits I will start that."
+  },
+  {
+    "start": 280.36,
+    "end": 288.36,
+    "text": "So I will give some introduction to machine learning and then we will start with the actual machine learning algorithm."
+  },
+  {
+    "start": 338.84,
+    "end": 350.2,
+    "text": "Suppose if I ask you to write a small C function to find the square of a given number."
+  },
+  {
+    "start": 425.52,
+    "end": 433.52,
+    "text": "If you want any input variable x value you will be able to find out the value of y."
+  }
+]

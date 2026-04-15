@@ -1,0 +1,502 @@
+[
+  {
+    "start": 480.0,
+    "end": 486.04,
+    "text": "will determine is that clear? Instead of this this is a deterministic function you have"
+  },
+  {
+    "start": 486.04,
+    "end": 495.32,
+    "text": "input you have an output that is it. But if you instead of this suppose I give you this."
+  },
+  {
+    "start": 495.32,
+    "end": 525.08,
+    "text": "I have taken only few samples instead of this I am giving you this. My case not on"
+  },
+  {
+    "start": 525.08,
+    "end": 548.44,
+    "text": "So, finally I am given to you can er, lady or what, because here I understand any quite"
+  },
+  {
+    "start": 548.44,
+    "end": 549.44,
+    "text": "Okay."
+  },
+  {
+    "start": 549.44,
+    "end": 554.72,
+    "text": "Slowly I will raise my voice."
+  },
+  {
+    "start": 554.72,
+    "end": 557.56,
+    "text": "Can you hear me now?"
+  },
+  {
+    "start": 557.56,
+    "end": 565.8,
+    "text": "So you have the x and you have the y and this is what I have given you."
+  },
+  {
+    "start": 565.8,
+    "end": 573.52,
+    "text": "Now how do you find out the new input x which is let us say, which is 8."
+  },
+  {
+    "start": 573.52,
+    "end": 575.32,
+    "text": "What is the value of y?"
+  },
+  {
+    "start": 575.32,
+    "end": 583.04,
+    "text": "I am just giving you this."
+  },
+  {
+    "start": 583.04,
+    "end": 585.04,
+    "text": "How did you compute?"
+  },
+  {
+    "start": 585.04,
+    "end": 591.64,
+    "text": "So he is saying it is approximately 64."
+  },
+  {
+    "start": 591.64,
+    "end": 597.08,
+    "text": "He is saying that which means that he processed something from the given data."
+  },
+  {
+    "start": 597.08,
+    "end": 600.56,
+    "text": "What did he do or everybody has done it?"
+  },
+  {
+    "start": 600.56,
+    "end": 601.8,
+    "text": "What did you do?"
+  },
+  {
+    "start": 602.8,
+    "end": 610.52,
+    "text": "So you understood the pattern, you understood the relationship between x and y."
+  },
+  {
+    "start": 610.52,
+    "end": 612.04,
+    "text": "Did you understand?"
+  },
+  {
+    "start": 612.04,
+    "end": 618.48,
+    "text": "And from your processing from your brain, from the brain computing, you understood the"
+  },
+  {
+    "start": 618.48,
+    "end": 624.2,
+    "text": "pattern to be y is equal to approximately x square."
+  },
+  {
+    "start": 624.2,
+    "end": 631.48,
+    "text": "This you arrived at, you found out the relationship between x and y is like this from the given"
+  },
+  {
+    "start": 631.48,
+    "end": 634.24,
+    "text": "data from the given experience."
+  },
+  {
+    "start": 634.24,
+    "end": 641.48,
+    "text": "This is what you unearthed from the given data and this is known as what?"
+  },
+  {
+    "start": 641.48,
+    "end": 643.72,
+    "text": "What is this?"
+  },
+  {
+    "start": 643.72,
+    "end": 647.84,
+    "text": "And what is this?"
+  },
+  {
+    "start": 647.84,
+    "end": 655.04,
+    "text": "This is called as experience or the data."
+  },
+  {
+    "start": 655.04,
+    "end": 660.32,
+    "text": "From the data, you are trying to identify the relationship between the output and the"
+  },
+  {
+    "start": 660.32,
+    "end": 666.48,
+    "text": "input which you identified, which you unearthed and that you did by looking at the data one"
+  },
+  {
+    "start": 666.48,
+    "end": 668.28,
+    "text": "by one."
+  },
+  {
+    "start": 668.28,
+    "end": 675.36,
+    "text": "That processing you did it at using your brain right now plus internal and you found out"
+  },
+  {
+    "start": 675.36,
+    "end": 677.08,
+    "text": "this."
+  },
+  {
+    "start": 677.08,
+    "end": 682.8,
+    "text": "After finding out this from the given data, you are trying to plug x now into this and"
+  },
+  {
+    "start": 682.8,
+    "end": 685.28,
+    "text": "you are paying the answer to 64."
+  },
+  {
+    "start": 685.28,
+    "end": 686.92,
+    "text": "So what is this data?"
+  },
+  {
+    "start": 686.92,
+    "end": 694.36,
+    "text": "This is known as inference data, inference data or the test data."
+  },
+  {
+    "start": 694.36,
+    "end": 701.84,
+    "text": "This is you are training the brain and that is why it is called as the training data."
+  },
+  {
+    "start": 701.84,
+    "end": 708.68,
+    "text": "You are training the brain to understand the relationship between y and x."
+  },
+  {
+    "start": 708.68,
+    "end": 715.76,
+    "text": "And after sufficient training of your brain, you understood the output from your brain turned"
+  },
+  {
+    "start": 715.76,
+    "end": 718.6,
+    "text": "out to be this."
+  },
+  {
+    "start": 718.6,
+    "end": 723.72,
+    "text": "And again you use the brain power and this retention and applied x to this and you found"
+  },
+  {
+    "start": 723.72,
+    "end": 727.04,
+    "text": "out y."
+  },
+  {
+    "start": 727.04,
+    "end": 729.56,
+    "text": "This is inference time."
+  },
+  {
+    "start": 729.56,
+    "end": 737.4,
+    "text": "You might have been hearing about model and model and model, ML models, ML models right"
+  },
+  {
+    "start": 737.4,
+    "end": 743.12,
+    "text": "by now you might have worked with some models right."
+  },
+  {
+    "start": 743.12,
+    "end": 744.4,
+    "text": "So what is that model?"
+  },
+  {
+    "start": 744.4,
+    "end": 747.0,
+    "text": "This is that model."
+  },
+  {
+    "start": 747.0,
+    "end": 751.72,
+    "text": "Is that clear?"
+  },
+  {
+    "start": 751.72,
+    "end": 757.52,
+    "text": "Understanding the relationship between the input and output and unearthing the equation that"
+  },
+  {
+    "start": 757.52,
+    "end": 761.96,
+    "text": "governs the input and output is ML model."
+  },
+  {
+    "start": 761.96,
+    "end": 769.32,
+    "text": "That is coming out as an output which was known straightforward in an algorithmic approach."
+  },
+  {
+    "start": 769.32,
+    "end": 771.96,
+    "text": "Here we knew the model directly."
+  },
+  {
+    "start": 771.96,
+    "end": 773.52,
+    "text": "So I wrote an algorithmic approach."
+  },
+  {
+    "start": 773.52,
+    "end": 779.4,
+    "text": "This is traditional programming because I knew this relationship but in the absence of"
+  },
+  {
+    "start": 779.4,
+    "end": 784.76,
+    "text": "not knowing that relationship in real life scenarios, this kind of relationship will not"
+  },
+  {
+    "start": 784.76,
+    "end": 786.64,
+    "text": "be that easily known."
+  },
+  {
+    "start": 786.64,
+    "end": 792.12,
+    "text": "This is still a very simple equation, y equal to x square is still a very simple equation."
+  },
+  {
+    "start": 792.12,
+    "end": 797.68,
+    "text": "But in reality the number of features, see some of your expressions you are trying to"
+  },
+  {
+    "start": 797.68,
+    "end": 799.24,
+    "text": "test me, do not test me, it is okay."
+  },
+  {
+    "start": 799.24,
+    "end": 800.24,
+    "text": "I know the subject."
+  },
+  {
+    "start": 800.24,
+    "end": 803.12,
+    "text": "You just listen to the subject."
+  },
+  {
+    "start": 803.12,
+    "end": 805.4,
+    "text": "With proper intent you listen to the subject."
+  },
+  {
+    "start": 805.4,
+    "end": 809.56,
+    "text": "I know the subject, I can claim that I know the subject pretty well."
+  },
+  {
+    "start": 809.56,
+    "end": 812.2,
+    "text": "You do not have to test me what I am doing and all that."
+  },
+  {
+    "start": 812.2,
+    "end": 814.36,
+    "text": "Your expressions let it be genuine."
+  },
+  {
+    "start": 814.36,
+    "end": 817.84,
+    "text": "x 1 to x 100 is a set of features."
+  },
+  {
+    "start": 817.84,
+    "end": 821.76,
+    "text": "If I of course I may make some mistakes while teaching so that you can always correct it"
+  },
+  {
+    "start": 821.76,
+    "end": 825.0,
+    "text": "because you are all intelligent and I have already put the disclaimer."
+  },
+  {
+    "start": 825.0,
+    "end": 828.84,
+    "text": "You are all intelligent and agree to this factor."
+  },
+  {
+    "start": 828.84,
+    "end": 830.84,
+    "text": "Now problem."
+  },
+  {
+    "start": 830.84,
+    "end": 834.64,
+    "text": "x 1 to x 100 is a feature set."
+  },
+  {
+    "start": 834.64,
+    "end": 841.88,
+    "text": "Instead of just one x you have the input itself is not just one x there are so many variables."
+  },
+  {
+    "start": 841.88,
+    "end": 843.96,
+    "text": "x 1 to x 100."
+  },
+  {
+    "start": 843.96,
+    "end": 849.84,
+    "text": "There are so many permutations and combinations and you have the y."
+  },
+  {
+    "start": 849.84,
+    "end": 855.64,
+    "text": "Is it that easy to find out the relationship?"
+  },
+  {
+    "start": 855.64,
+    "end": 860.84,
+    "text": "It is not such a straightforward thing to be saying that it is y equal to x square like"
+  },
+  {
+    "start": 860.84,
+    "end": 861.84,
+    "text": "this."
+  },
+  {
+    "start": 861.84,
+    "end": 863.48,
+    "text": "So this may be something like this."
+  },
+  {
+    "start": 863.48,
+    "end": 870.88,
+    "text": "y is equal to x 1 square plus x 1 x 2 plus x 100 square something like this."
+  },
+  {
+    "start": 870.88,
+    "end": 875.2,
+    "text": "The equation that governs the input and output would be something like that."
+  },
+  {
+    "start": 875.2,
+    "end": 880.2,
+    "text": "The model is so complex you understand that."
+  },
+  {
+    "start": 880.2,
+    "end": 886.28,
+    "text": "And to understand this kind of equation and relationship between the input and output"
+  },
+  {
+    "start": 886.28,
+    "end": 889.76,
+    "text": "how many samples you should look at."
+  },
+  {
+    "start": 889.76,
+    "end": 892.92,
+    "text": "How much training should happen?"
+  },
+  {
+    "start": 892.92,
+    "end": 897.16,
+    "text": "For it to perform at a later time it is something like this."
+  },
+  {
+    "start": 897.16,
+    "end": 899.84,
+    "text": "I will teach you a machine learning."
+  },
+  {
+    "start": 899.84,
+    "end": 905.96,
+    "text": "I am assuming and I am giving you confidence that I will teach damn well."
+  },
+  {
+    "start": 905.96,
+    "end": 913.12,
+    "text": "You will get trained damn well but in the examination something else happens."
+  },
+  {
+    "start": 913.12,
+    "end": 918.2,
+    "text": "The training can happen the damn well we have to put question mark there."
+  },
+  {
+    "start": 918.2,
+    "end": 920.76,
+    "text": "What is the meaning of damn well?"
+  },
+  {
+    "start": 920.76,
+    "end": 923.2,
+    "text": "Do you understand?"
+  },
+  {
+    "start": 923.2,
+    "end": 929.68,
+    "text": "How many times have to keep repeating the same thing for you to understand what it is?"
+  },
+  {
+    "start": 929.68,
+    "end": 933.92,
+    "text": "How many examples that I should cover in the class for me to say that I am going to"
+  },
+  {
+    "start": 933.92,
+    "end": 936.68,
+    "text": "cover it damn well."
+  },
+  {
+    "start": 936.68,
+    "end": 941.2,
+    "text": "And how many times how often you should study this for you to say that your damn well"
+  },
+  {
+    "start": 941.2,
+    "end": 942.8,
+    "text": "trained."
+  },
+  {
+    "start": 942.8,
+    "end": 948.96,
+    "text": "And then we will test it actually in the examination and you still get a secret."
+  },
+  {
+    "start": 948.96,
+    "end": 951.4,
+    "text": "That is inference time."
+  },
+  {
+    "start": 951.4,
+    "end": 956.44,
+    "text": "Inference time and see you understand that is called as we later in ML very often we"
+  },
+  {
+    "start": 956.44,
+    "end": 959.32,
+    "text": "will see this over-pitting."
+  },
+  {
+    "start": 959.32,
+    "end": 963.32,
+    "text": "All examination papers I have sort like the way you"
+  }
+]
