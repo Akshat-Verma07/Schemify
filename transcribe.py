@@ -37,7 +37,7 @@ def transcribe(video_path, chunk_name=None, chunk_start=0.0):           #returns
     segments = []
     for seg in result["segments"]:
         segments.append({
-            "start": round(seg["start"] + chunk_start, 2),  # offset added here
+            "start": round(seg["start"] + chunk_start, 2),  # onset added here
             "end": round(seg["end"] + chunk_start, 2),      # offset added here
             "text": seg["text"].strip()
         })
