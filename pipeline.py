@@ -146,14 +146,14 @@ def main():
                 "start": max(0.0, seg["start"] - chunk_start),
                 "end": max(0.0, seg["end"] - chunk_start)
             })
-
+        # stitching all videos
         clip_videos(chunk, local_segments, clip_dir=f"clips/{chunk_name}")
 
 
 
     print("Merging all clips...")
     merge_clips()
-    print("DONE")
+    print("DONE ✅✅")
 
 
 if __name__ == "__main__":
