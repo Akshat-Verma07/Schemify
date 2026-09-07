@@ -1,0 +1,44 @@
+[
+  {
+    "start": 1953.4,
+    "end": 1961.4,
+    "text": "How will I define that?",
+    "topic_id": "structure_definition",
+    "topic_name": "Structure Definition"
+  },
+  {
+    "start": 1971.38,
+    "end": 2018.36,
+    "text": "I am going to use the keyword, struct, followed by name of the data structure, which is date and I have to define the name for my data member.",
+    "topic_id": "structure_definition",
+    "topic_name": "Structure Definition"
+  },
+  {
+    "start": 2144.0,
+    "end": 2158.12,
+    "text": "This is an example of what named nested structure.",
+    "topic_id": "nested_structure",
+    "topic_name": "Nested Structure"
+  },
+  {
+    "start": 2180.0,
+    "end": 2201.96,
+    "text": "How will I define a nested structure?",
+    "topic_id": "nested_structure",
+    "topic_name": "Nested Structure"
+  },
+  {
+    "start": 2244.0,
+    "end": 2267.48,
+    "text": "S Rusty blood your data members close your flower brackets.",
+    "topic_id": "nested_structure",
+    "topic_name": "Nested Structure"
+  },
+  {
+    "start": 2270.0,
+    "end": 2304.18,
+    "text": "named nested structure can be reused in multiple structures.",
+    "topic_id": "nested_structure",
+    "topic_name": "Nested Structure"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "start": 960.0,
+    "end": 964.0,
+    "text": "So our instance variable's role number is compared with the second instance variable's"
+  },
+  {
+    "start": 964.0,
+    "end": 970.8,
+    "text": "role number which is my next data type which is my data type."
+  },
+  {
+    "start": 970.8,
+    "end": 974.8,
+    "text": "I told member by member comparison should happen and done with the first member."
+  },
+  {
+    "start": 974.8,
+    "end": 977.0,
+    "text": "My second member is a string."
+  },
+  {
+    "start": 977.0,
+    "end": 980.0,
+    "text": "So how will I compare two strings?"
+  },
+  {
+    "start": 980.0,
+    "end": 994.8,
+    "text": "Str which is my first string which is my second and this is going to give me what if the"
+  },
+  {
+    "start": 994.8,
+    "end": 1003.0,
+    "text": "both are equals if both the strings are equals Str compare is going to return me 0 but 0 is"
+  },
+  {
+    "start": 1003.0,
+    "end": 1004.0,
+    "text": "what?"
+  },
+  {
+    "start": 1004.0,
+    "end": 1015.0,
+    "text": "It is a false condition inside but what I should I add here if it is equal to 0 okay if it"
+  },
+  {
+    "start": 1015.0,
+    "end": 1020.3,
+    "text": "is equal to 0 then both the strings are equals."
+  },
+  {
+    "start": 1020.3,
+    "end": 1022.0,
+    "text": "What is my next data type?"
+  },
+  {
+    "start": 1022.0,
+    "end": 1027.0,
+    "text": "Again it is an integer how will I do integer comparison?"
+  },
+  {
+    "start": 1027.0,
+    "end": 1037.0,
+    "text": "S1 dot so if this is true what will I do?"
+  },
+  {
+    "start": 1037.0,
+    "end": 1046.0,
+    "text": "If this is true what will I do I say they both are equals."
+  },
+  {
+    "start": 1057.0,
+    "end": 1073.0,
+    "text": "In this particular case what should be printed?"
+  },
+  {
+    "start": 1074.0,
+    "end": 1080.0,
+    "text": "Should it be equal or not equal?"
+  },
+  {
+    "start": 1087.0,
+    "end": 1093.0,
+    "text": "So if you are using Str compare what should I include?"
+  },
+  {
+    "start": 1093.0,
+    "end": 1116.0,
+    "text": "Here with this how to do comparison between two structures or two instance variable?"
+  },
+  {
+    "start": 1117.0,
+    "end": 1123.0,
+    "text": "In this case both are equals should I get equal?"
+  },
+  {
+    "start": 1123.0,
+    "end": 1133.0,
+    "text": "Okay if you miss this please pay attention if you miss this both the strings are equals"
+  },
+  {
+    "start": 1133.0,
+    "end": 1138.0,
+    "text": "sorry both structures are equals yes both the instance variable have the same type of value"
+  },
+  {
+    "start": 1138.0,
+    "end": 1144.0,
+    "text": "and if I miss this it is going to return me 0 and condition fails and it is going to print not equal."
+  },
+  {
+    "start": 1144.0,
+    "end": 1151.0,
+    "text": "So please pay attention make note of this whenever you are using string compare make sure you"
+  },
+  {
+    "start": 1151.0,
+    "end": 1164.0,
+    "text": "equate it to 0 check whether if it is equal to 0 okay."
+  },
+  {
+    "start": 1165.0,
+    "end": 1173.0,
+    "text": "So if I want to I told structures are assignment compatible yes are arrays assignment compatible?"
+  },
+  {
+    "start": 1173.0,
+    "end": 1179.0,
+    "text": "Arrays no structures are assignment compatible yes."
+  },
+  {
+    "start": 1179.0,
+    "end": 1190.0,
+    "text": "So how will I assign one structure to another structure?"
+  },
+  {
+    "start": 1190.0,
+    "end": 1201.0,
+    "text": "So I have S2 I want the same values of S1 to be assigned to S2 all the values of S1 I want them as it is an S2."
+  },
+  {
+    "start": 1201.0,
+    "end": 1212.0,
+    "text": "What will I do? Are the assignment compatible yes I say S2 equals S1 okay and then going to?"
+  },
+  {
+    "start": 1250.0,
+    "end": 1274.0,
+    "text": "So whatever was stored in S1 since I did not specify the role number during initialization"
+  },
+  {
+    "start": 1274.0,
+    "end": 1283.0,
+    "text": "before value 0 ABC followed by 30 since I did the assignment using assignment operator"
+  },
+  {
+    "start": 1283.0,
+    "end": 1291.0,
+    "text": "structures are assigned so one structure to another structure as it is using the assignment operator 0 ABC 30 of S2."
+  },
+  {
+    "start": 1292.0,
+    "end": 1303.0,
+    "text": "If I change the value of S2 will it be reflected to S1? If I change one of the data members of S2?"
+  },
+  {
+    "start": 1303.0,
+    "end": 1308.0,
+    "text": "If I change one of the how will I access role numbers?"
+  },
+  {
+    "start": 1308.0,
+    "end": 1319.0,
+    "text": "So let me assign the role numbers S1 or S2 fine so I will just change one of the value of one of the instance variable S2."
+  },
+  {
+    "start": 1319.0,
+    "end": 1331.0,
+    "text": "I will assign it to some value will it make changes to the original S1 and S2?"
+  },
+  {
+    "start": 1331.0,
+    "end": 1341.0,
+    "text": "It is member wise copy correct member wise value or copy it from one structure to another structure correct."
+  },
+  {
+    "start": 1341.0,
+    "end": 1350.0,
+    "text": "But if I make changes to one structure will it be reflected to another structure? Should be yes or no? No."
+  },
+  {
+    "start": 1350.0,
+    "end": 1361.0,
+    "text": "Because both of them have different addresses when you do member wise copy or when you use assignment operator this address of S1 is entirely different from S2."
+  },
+  {
+    "start": 1361.0,
+    "end": 1372.0,
+    "text": "You are just doing member wise copy that is it values are copied. If you make changes to the values it is not reflected to another structure because both of them have different addresses."
+  },
+  {
+    "start": 1372.0,
+    "end": 1387.0,
+    "text": "See these two are after assignments of S1 and S2 both have same value."
+  },
+  {
+    "start": 1387.0,
+    "end": 1396.0,
+    "text": "I am changing S2 role number to one. Did it reflect to S1? Sorry S2 I changed it to one did it reflect to S1? No."
+  },
+  {
+    "start": 1396.0,
+    "end": 1405.0,
+    "text": "So if you make changes to one of the structure it is not going to affect the other structure it is just member wise copy that is it."
+  },
+  {
+    "start": 1405.0,
+    "end": 1415.0,
+    "text": "Here with this guess this output consider this particular program."
+  },
+  {
+    "start": 1415.0,
+    "end": 1425.0,
+    "text": "I have a structure which has three data type integer floating characters. I will sign it to some values."
+  },
+  {
+    "start": 1425.0,
+    "end": 1433.0,
+    "text": "I am doing assignment from one structure to another structure. I am changing the value of S1."
+  },
+  {
+    "start": 1433.0,
+    "end": 1440.0,
+    "text": "What should be S1 of N and S2 of N? S1 of N because I changed it to 55 should be..."
+  }
+]

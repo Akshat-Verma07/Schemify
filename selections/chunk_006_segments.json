@@ -1,0 +1,30 @@
+[
+  {
+    "start": 3100.6,
+    "end": 3108.6,
+    "text": "We need a formula for this.",
+    "topic_id": "kinetic_theory_of_gases",
+    "topic_name": "Kinetic Theory of Gases"
+  },
+  {
+    "start": 3110.88,
+    "end": 3131.08,
+    "text": "KT theory of gases says one third Cb velocity lambda.",
+    "topic_id": "kinetic_theory_of_gases",
+    "topic_name": "Kinetic Theory of Gases"
+  },
+  {
+    "start": 3135.96,
+    "end": 3143.96,
+    "text": "There is a chamber filled with gas and I am sending heat.",
+    "topic_id": "thermal_conductivity",
+    "topic_name": "Thermal Conductivity"
+  },
+  {
+    "start": 3146.0,
+    "end": 3272.4,
+    "text": "One third of the heat goes along one direction.",
+    "topic_id": "thermal_conductivity",
+    "topic_name": "Thermal Conductivity"
+  }
+]

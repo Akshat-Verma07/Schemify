@@ -1,0 +1,312 @@
+[
+  {
+    "start": 1440.0,
+    "end": 1453.46,
+    "text": "So, structure can be assigned with the structure contains an array in this particular case"
+  },
+  {
+    "start": 1453.46,
+    "end": 1455.7,
+    "text": "in floating character."
+  },
+  {
+    "start": 1455.7,
+    "end": 1463.98,
+    "text": "The previous case which we saw in the program was there array was there array yes there"
+  },
+  {
+    "start": 1463.98,
+    "end": 1467.34,
+    "text": "was an array was assignment possible."
+  },
+  {
+    "start": 1467.34,
+    "end": 1478.98,
+    "text": "So, structures can be assigned even if there are even if the structure contains an"
+  },
+  {
+    "start": 1478.98,
+    "end": 1490.26,
+    "text": "array or individual primitive data type."
+  },
+  {
+    "start": 1490.26,
+    "end": 1495.78,
+    "text": "So, if you stop talking see if you stop if you do not stop talking it will lag then I"
+  },
+  {
+    "start": 1495.78,
+    "end": 1502.1,
+    "text": "have to occupy full of your class maintain silence and listen."
+  },
+  {
+    "start": 1502.1,
+    "end": 1508.82,
+    "text": "So, why will I use type this the type this is nothing but it is a key word which is used"
+  },
+  {
+    "start": 1508.82,
+    "end": 1512.62,
+    "text": "to give a new name for a particular data type ok."
+  },
+  {
+    "start": 1512.62,
+    "end": 1519.82,
+    "text": "So, it is used to give a new name for a particular data type it is like an alternative name"
+  },
+  {
+    "start": 1519.82,
+    "end": 1521.82,
+    "text": "for any data ok."
+  },
+  {
+    "start": 1521.82,
+    "end": 1530.3,
+    "text": "It is like an alternative name for any data for example, if I want to change the so, how"
+  },
+  {
+    "start": 1530.3,
+    "end": 1538.58,
+    "text": "will I create instance variables I am using followed by name of the structure it is very"
+  },
+  {
+    "start": 1538.58,
+    "end": 1545.9,
+    "text": "long can I give an alternative name for struct student yes by using type 10 ok."
+  },
+  {
+    "start": 1545.9,
+    "end": 1552.66,
+    "text": "Instead of mentioning struct student I will say something called S ok can I do that using"
+  },
+  {
+    "start": 1552.66,
+    "end": 1556.98,
+    "text": "type this it is like an alternative name which is given for a longer data."
+  },
+  {
+    "start": 1556.98,
+    "end": 1562.74,
+    "text": "So, if you represent the data using a long name I can give some short form or an alternative"
+  },
+  {
+    "start": 1562.74,
+    "end": 1563.74,
+    "text": "name using type this."
+  },
+  {
+    "start": 1563.74,
+    "end": 1570.98,
+    "text": "So, type this is mostly used with user design data type like structure when names of the"
+  },
+  {
+    "start": 1570.98,
+    "end": 1573.34,
+    "text": "data type becomes slightly longer."
+  },
+  {
+    "start": 1573.34,
+    "end": 1579.62,
+    "text": "So, instead of using struct student I can use a alternative very small name by using"
+  },
+  {
+    "start": 1579.62,
+    "end": 1586.3,
+    "text": "type this again I have two versions of type this."
+  },
+  {
+    "start": 1586.3,
+    "end": 1599.62,
+    "text": "So, instead of using struct student struct student everywhere I am going to use the key word"
+  },
+  {
+    "start": 1599.62,
+    "end": 1602.38,
+    "text": "type there define my own name ok."
+  },
+  {
+    "start": 1602.38,
+    "end": 1611.1,
+    "text": "So, I will consider S ok I will consider."
+  },
+  {
+    "start": 1629.62,
+    "end": 1658.98,
+    "text": "So, instead of using struct student struct student everywhere I will type that type design"
+  },
+  {
+    "start": 1658.98,
+    "end": 1665.98,
+    "text": "struct student S into using that particular key word I am going to use S S S S everywhere"
+  },
+  {
+    "start": 1665.98,
+    "end": 1673.42,
+    "text": "here we type this yes this is one version one more version of use how to design type"
+  },
+  {
+    "start": 1673.42,
+    "end": 1680.9,
+    "text": "this is by defining the structure itself I am going to give a name ok."
+  },
+  {
+    "start": 1680.9,
+    "end": 1685.66,
+    "text": "So, you are defining the structure itself where am I defining the structure here correct."
+  },
+  {
+    "start": 1685.66,
+    "end": 1692.14,
+    "text": "So, you say type this struct student just before the semi colon I am going to specify the"
+  },
+  {
+    "start": 1692.14,
+    "end": 1693.14,
+    "text": "name."
+  },
+  {
+    "start": 1693.14,
+    "end": 1700.58,
+    "text": "So, instead of doing this globally declaring the type this I can use the type this when"
+  },
+  {
+    "start": 1700.58,
+    "end": 1705.42,
+    "text": "you are declaring the structure and just before the semi colon I am going to mention the"
+  },
+  {
+    "start": 1705.42,
+    "end": 1708.38,
+    "text": "alternative name clear with this version two."
+  },
+  {
+    "start": 1708.38,
+    "end": 1714.74,
+    "text": "So, this is version one and this is version there are two ways how we can define your"
+  },
+  {
+    "start": 1714.74,
+    "end": 1718.74,
+    "text": "type this."
+  },
+  {
+    "start": 1718.74,
+    "end": 1728.66,
+    "text": "Everybody clear with type this why are we using type this what is type this is a key word"
+  },
+  {
+    "start": 1728.66,
+    "end": 1732.94,
+    "text": "which gives us an alternative name especially used for use a defined data type with long"
+  },
+  {
+    "start": 1732.94,
+    "end": 1737.58,
+    "text": "earnings. So, instead of using struct student struct student everywhere I am going to use"
+  },
+  {
+    "start": 1737.58,
+    "end": 1750.66,
+    "text": "this alternative name for S clear with this."
+  },
+  {
+    "start": 1750.66,
+    "end": 1758.06,
+    "text": "Can I have structure inside another structure possible yes that is called as method structure."
+  },
+  {
+    "start": 1758.06,
+    "end": 1765.66,
+    "text": "So, we do has three ways one is name structure and one more is unnamed structure we will see"
+  },
+  {
+    "start": 1765.66,
+    "end": 1772.22,
+    "text": "how name structure and unnamed structure work one of the advantage of using name structure"
+  },
+  {
+    "start": 1772.22,
+    "end": 1778.22,
+    "text": "is you can reuse the structure again and again within multiple structure with respect"
+  },
+  {
+    "start": 1778.22,
+    "end": 1785.7,
+    "text": "to name structure what is unnamed structure structure within within the other structure"
+  },
+  {
+    "start": 1785.7,
+    "end": 1789.06,
+    "text": "but I cannot reuse it within the other structure."
+  },
+  {
+    "start": 1789.06,
+    "end": 1794.54,
+    "text": "So, we will see how I can define name the unnamed structure separately."
+  },
+  {
+    "start": 1794.54,
+    "end": 1806.94,
+    "text": "So, now let me just consider let me just consider another attribute or another data member"
+  },
+  {
+    "start": 1806.94,
+    "end": 1814.14,
+    "text": "for the same structure I want to store data of birth of a student ok I want to store data"
+  },
+  {
+    "start": 1814.14,
+    "end": 1819.82,
+    "text": "of birth but data of birth has how many characters day month year."
+  },
+  {
+    "start": 1819.82,
+    "end": 1825.06,
+    "text": "So, there are three different attributes that has to be stored inside the OP or data"
+  },
+  {
+    "start": 1825.06,
+    "end": 1833.34,
+    "text": "of birth. Can I define a separate structure for this data of birth yes."
+  },
+  {
+    "start": 1833.34,
+    "end": 1861.24,
+    "text": "So, I am going to define a structure called date which has three attributes that is day"
+  },
+  {
+    "start": 1861.24,
+    "end": 1876.52,
+    "text": "month and what is sample serial while designing a structure as soon as I close my flower brackets"
+  },
+  {
+    "start": 1876.52,
+    "end": 1881.92,
+    "text": "I have to mention semi gold ok do not forget with the semi gold."
+  },
+  {
+    "start": 1881.92,
+    "end": 1884.92,
+    "text": "Now, I want to nest both of these two structures."
+  },
+  {
+    "start": 1884.92,
+    "end": 1889.88,
+    "text": "So, this is an example of named structure ok."
+  },
+  {
+    "start": 1889.88,
+    "end": 1897.44,
+    "text": "So, there are three types of nested structure named unnamed and using a pointer we are going"
+  },
+  {
+    "start": 1897.44,
+    "end": 1910.88,
+    "text": "to mainly concentrate on named and unnamed named this is an example ok named this is an"
+  },
+  {
+    "start": 1910.88,
+    "end": 1917.88,
+    "text": "example. Now, I want to initialize the values day month and year how will I do that."
+  }
+]

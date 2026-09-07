@@ -1,0 +1,412 @@
+[
+  {
+    "start": 480.0,
+    "end": 487.0,
+    "text": "Tell me what is output in this case?"
+  },
+  {
+    "start": 487.0,
+    "end": 491.0,
+    "text": "Should be 12."
+  },
+  {
+    "start": 491.0,
+    "end": 494.0,
+    "text": "What is the total bytes of memory in this case?"
+  },
+  {
+    "start": 494.0,
+    "end": 501.0,
+    "text": "Character, character, integer, integer."
+  },
+  {
+    "start": 501.0,
+    "end": 508.0,
+    "text": "12, test 2 should be 12."
+  },
+  {
+    "start": 508.0,
+    "end": 513.0,
+    "text": "Clear, understood?"
+  },
+  {
+    "start": 513.0,
+    "end": 517.0,
+    "text": "It is 12."
+  },
+  {
+    "start": 517.0,
+    "end": 528.0,
+    "text": "If there is only one character inside the data inside the structure, then 4 or 1, please"
+  },
+  {
+    "start": 528.0,
+    "end": 531.0,
+    "text": "get this output very important."
+  },
+  {
+    "start": 531.0,
+    "end": 535.0,
+    "text": "If there is only one character and there is only one data type, what should be my total"
+  },
+  {
+    "start": 535.0,
+    "end": 536.0,
+    "text": "size?"
+  },
+  {
+    "start": 536.0,
+    "end": 538.0,
+    "text": "1 or 4?"
+  },
+  {
+    "start": 538.0,
+    "end": 543.0,
+    "text": "How many of you say it is 1?"
+  },
+  {
+    "start": 543.0,
+    "end": 546.0,
+    "text": "How many of you say it is 1?"
+  },
+  {
+    "start": 546.0,
+    "end": 553.0,
+    "text": "4?"
+  },
+  {
+    "start": 553.0,
+    "end": 566.0,
+    "text": "So, whenever there is a single data type and there is no other data type to be compared,"
+  },
+  {
+    "start": 566.0,
+    "end": 572.0,
+    "text": "the memory is going to allocate it as it is depending on the data type which is present"
+  },
+  {
+    "start": 572.0,
+    "end": 573.0,
+    "text": "in the data structure."
+  },
+  {
+    "start": 573.0,
+    "end": 576.0,
+    "text": "Clear with this?"
+  },
+  {
+    "start": 576.0,
+    "end": 581.0,
+    "text": "Yes."
+  },
+  {
+    "start": 581.0,
+    "end": 591.0,
+    "text": "Clear with padding and memory allocation."
+  },
+  {
+    "start": 591.0,
+    "end": 599.0,
+    "text": "Isn't the memory wasted in this case?"
+  },
+  {
+    "start": 599.0,
+    "end": 618.0,
+    "text": "You are adding extra bytes of memory and padding is happening and there is a memory in"
+  },
+  {
+    "start": 618.0,
+    "end": 621.0,
+    "text": "this case memory usage."
+  },
+  {
+    "start": 621.0,
+    "end": 624.0,
+    "text": "How will I overcome this issue?"
+  },
+  {
+    "start": 624.0,
+    "end": 625.0,
+    "text": "In structures?"
+  },
+  {
+    "start": 625.0,
+    "end": 629.0,
+    "text": "Guys, please stop talking."
+  },
+  {
+    "start": 629.0,
+    "end": 635.0,
+    "text": "You guys separate, some of you sit this side."
+  },
+  {
+    "start": 635.0,
+    "end": 640.0,
+    "text": "Some of you please shift this side."
+  },
+  {
+    "start": 640.0,
+    "end": 644.0,
+    "text": "Last 4 this side."
+  },
+  {
+    "start": 644.0,
+    "end": 647.0,
+    "text": "Here 2 here 2 this side."
+  },
+  {
+    "start": 647.0,
+    "end": 650.0,
+    "text": "Shift shift fast."
+  },
+  {
+    "start": 650.0,
+    "end": 654.0,
+    "text": "How will I overcome this issue of memory insufficient management?"
+  },
+  {
+    "start": 654.0,
+    "end": 657.0,
+    "text": "I am going to use pragma."
+  },
+  {
+    "start": 657.0,
+    "end": 658.0,
+    "text": "So, what is pragma?"
+  },
+  {
+    "start": 658.0,
+    "end": 665.0,
+    "text": "It is a free processor directive available in C to overcome the memory insufficient issue."
+  },
+  {
+    "start": 665.0,
+    "end": 671.0,
+    "text": "So, if I use this particular pragma directive, pre-processor directive, it is going to be"
+  },
+  {
+    "start": 671.0,
+    "end": 673.0,
+    "text": "allocated this way."
+  },
+  {
+    "start": 673.0,
+    "end": 680.0,
+    "text": "So, if I want the memory to be utilized to the full list, I want only one byte for character"
+  },
+  {
+    "start": 680.0,
+    "end": 686.0,
+    "text": "4 bytes for integer, 4 bytes for float and 8 bytes for double as with the data type."
+  },
+  {
+    "start": 686.0,
+    "end": 691.0,
+    "text": "Depending on the data type, I am going to I have to use pragma."
+  },
+  {
+    "start": 691.0,
+    "end": 694.0,
+    "text": "What is the syntax for using pragma?"
+  },
+  {
+    "start": 694.0,
+    "end": 699.0,
+    "text": "How will each of your pre-processor directive start with?"
+  },
+  {
+    "start": 700.0,
+    "end": 706.0,
+    "text": "With the ash, ash include ash, whatever all of these are considered as your pre-processor directive."
+  },
+  {
+    "start": 706.0,
+    "end": 712.0,
+    "text": "So, I am going to start with ash followed by pragma and I am going to use the keyword pack."
+  },
+  {
+    "start": 712.0,
+    "end": 721.0,
+    "text": "And within the pack function, I have to mention the with respect to how many bytes I am going to avoid the padding."
+  },
+  {
+    "start": 721.0,
+    "end": 744.0,
+    "text": "So, I am going to pack which is my least data structure character."
+  },
+  {
+    "start": 744.0,
+    "end": 747.0,
+    "text": "How many bytes of memory gets allocated for character?"
+  },
+  {
+    "start": 747.0,
+    "end": 750.0,
+    "text": "So, I am going to pack one."
+  },
+  {
+    "start": 750.0,
+    "end": 754.0,
+    "text": "So, this should be my output if I am using pragma."
+  },
+  {
+    "start": 754.0,
+    "end": 755.0,
+    "text": "Fine?"
+  },
+  {
+    "start": 755.0,
+    "end": 768.0,
+    "text": "This is 5, 5, 6, 5, 5, 6 and 9."
+  },
+  {
+    "start": 768.0,
+    "end": 775.0,
+    "text": "So, this is what we understood at the beginning and if you use pragma, this is going to be my output."
+  },
+  {
+    "start": 776.0,
+    "end": 779.0,
+    "text": "Clear with this?"
+  },
+  {
+    "start": 779.0,
+    "end": 782.0,
+    "text": "Yes?"
+  },
+  {
+    "start": 782.0,
+    "end": 793.0,
+    "text": "Can I compare one structure with another structure? Is it possible?"
+  },
+  {
+    "start": 793.0,
+    "end": 794.0,
+    "text": "Yes?"
+  },
+  {
+    "start": 794.0,
+    "end": 799.0,
+    "text": "How will I compare one integer with another integer?"
+  },
+  {
+    "start": 799.0,
+    "end": 803.0,
+    "text": "How will I compare one integer with another integer?"
+  },
+  {
+    "start": 803.0,
+    "end": 810.0,
+    "text": "So, I am going to use a relational operator that is equal to for an integer of load or double."
+  },
+  {
+    "start": 810.0,
+    "end": 818.0,
+    "text": "If I want to compare string, which string specific function will help me to compare?"
+  },
+  {
+    "start": 818.0,
+    "end": 822.0,
+    "text": "Which is a string specific function which compares to string?"
+  },
+  {
+    "start": 823.0,
+    "end": 829.0,
+    "text": "S T R C M P which takes two strings A and B."
+  },
+  {
+    "start": 829.0,
+    "end": 832.0,
+    "text": "What is it going to return as two strings are equal?"
+  },
+  {
+    "start": 832.0,
+    "end": 839.0,
+    "text": "0, if A is greater than B, if A is less than B minus 1."
+  },
+  {
+    "start": 839.0,
+    "end": 847.0,
+    "text": "So, now I have a structure with respect to integer, I have a string, I have an integer."
+  },
+  {
+    "start": 847.0,
+    "end": 852.0,
+    "text": "Can I use only this operator to compare two structures? Is it possible?"
+  },
+  {
+    "start": 852.0,
+    "end": 854.0,
+    "text": "No."
+  },
+  {
+    "start": 854.0,
+    "end": 858.0,
+    "text": "Member by member comparison should happen when I am comparing two structures."
+  },
+  {
+    "start": 858.0,
+    "end": 866.0,
+    "text": "So, I cannot directly use this on one structure or one instance variable to another instance variable."
+  },
+  {
+    "start": 866.0,
+    "end": 871.0,
+    "text": "So, I have to do member by member comparison between the two instance variable."
+  },
+  {
+    "start": 877.0,
+    "end": 906.0,
+    "text": "So, let me consider two students."
+  },
+  {
+    "start": 906.0,
+    "end": 913.0,
+    "text": "Let me consider two students, S 1 and S 2."
+  },
+  {
+    "start": 913.0,
+    "end": 919.0,
+    "text": "They have different values, both of them have different values, I need to compare these two instance variables."
+  },
+  {
+    "start": 919.0,
+    "end": 921.0,
+    "text": "So, how will I do that?"
+  },
+  {
+    "start": 921.0,
+    "end": 932.0,
+    "text": "Member by member I have to do the comparison."
+  },
+  {
+    "start": 932.0,
+    "end": 935.0,
+    "text": "Which is my first member?"
+  },
+  {
+    "start": 935.0,
+    "end": 939.0,
+    "text": "It is a roll number and what is the data type?"
+  },
+  {
+    "start": 939.0,
+    "end": 941.0,
+    "text": "What is the data type?"
+  },
+  {
+    "start": 941.0,
+    "end": 942.0,
+    "text": "Integer."
+  },
+  {
+    "start": 942.0,
+    "end": 946.0,
+    "text": "So, if you have to compare two integer values, which what will you use?"
+  },
+  {
+    "start": 946.0,
+    "end": 960.0,
+    "text": "That is equal to S 1 dot roll number and S 2 dot."
+  }
+]

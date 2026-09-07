@@ -1,0 +1,407 @@
+[
+  {
+    "start": 1920.0,
+    "end": 1943.68,
+    "text": "So how will I miss the date of birth and structure first?"
+  },
+  {
+    "start": 1943.68,
+    "end": 1949.28,
+    "text": "So there is date which has date, month and day, month and year."
+  },
+  {
+    "start": 1949.28,
+    "end": 1953.4,
+    "text": "I want my fourth data member to be date of birth."
+  },
+  {
+    "start": 1953.4,
+    "end": 1956.12,
+    "text": "How will I define that?"
+  },
+  {
+    "start": 1956.12,
+    "end": 1958.64,
+    "text": "What is the name of the structure?"
+  },
+  {
+    "start": 1958.64,
+    "end": 1971.38,
+    "text": "I am going to use the keyword, struct, followed by name of the data structure, which is date"
+  },
+  {
+    "start": 1971.38,
+    "end": 1974.48,
+    "text": "and I have to define the name for my data member."
+  },
+  {
+    "start": 1974.48,
+    "end": 1978.48,
+    "text": "I considered it to be DO."
+  },
+  {
+    "start": 1978.48,
+    "end": 1985.48,
+    "text": "So here with this, how did I nest two different types, two different structures together?"
+  },
+  {
+    "start": 1985.48,
+    "end": 1987.48,
+    "text": "Name of the structure."
+  },
+  {
+    "start": 1987.48,
+    "end": 1993.76,
+    "text": "Before that I have to mention the struct keyword and this is the name of my data member."
+  },
+  {
+    "start": 1993.76,
+    "end": 1996.04,
+    "text": "Okay, clear with this."
+  },
+  {
+    "start": 1996.04,
+    "end": 1998.36,
+    "text": "So how will I initialize this?"
+  },
+  {
+    "start": 1998.36,
+    "end": 2002.04,
+    "text": "I have roll number name, month."
+  },
+  {
+    "start": 2002.04,
+    "end": 2008.44,
+    "text": "My fourth data member is a structure and that contains what?"
+  },
+  {
+    "start": 2008.44,
+    "end": 2010.36,
+    "text": "A month and year."
+  },
+  {
+    "start": 2010.36,
+    "end": 2020.52,
+    "text": "So I am going to initialize that as something like this."
+  },
+  {
+    "start": 2020.52,
+    "end": 2021.52,
+    "text": "Okay."
+  },
+  {
+    "start": 2021.52,
+    "end": 2028.04,
+    "text": "I am going to initialize the nested data structure again within the flower brackets."
+  },
+  {
+    "start": 2028.04,
+    "end": 2030.08,
+    "text": "Clear with this."
+  },
+  {
+    "start": 2030.08,
+    "end": 2035.88,
+    "text": "Now how will I access the data members of a nested data structure?"
+  },
+  {
+    "start": 2035.88,
+    "end": 2039.52,
+    "text": "How will I access the data members of a normal structure?"
+  },
+  {
+    "start": 2039.52,
+    "end": 2042.28,
+    "text": "Instance variable dot operator data member."
+  },
+  {
+    "start": 2042.28,
+    "end": 2046.36,
+    "text": "Now I want to access the data members of nested data structure."
+  },
+  {
+    "start": 2046.36,
+    "end": 2054.56,
+    "text": "How will I do that?"
+  },
+  {
+    "start": 2054.56,
+    "end": 2060.12,
+    "text": "I want to display date, date, month and year of nested data structure."
+  },
+  {
+    "start": 2060.12,
+    "end": 2064.28,
+    "text": "What is my instance variable S1?"
+  },
+  {
+    "start": 2064.28,
+    "end": 2071.48,
+    "text": "Which is the data member representing the date of birth in my main structure?"
+  },
+  {
+    "start": 2071.48,
+    "end": 2072.48,
+    "text": "BOB."
+  },
+  {
+    "start": 2072.48,
+    "end": 2079.48,
+    "text": "Followed by a dot operator."
+  },
+  {
+    "start": 2079.48,
+    "end": 2082.68,
+    "text": "I want to access, what do I want to access?"
+  },
+  {
+    "start": 2082.68,
+    "end": 2084.08,
+    "text": "Day, month and year."
+  },
+  {
+    "start": 2084.08,
+    "end": 2092.32,
+    "text": "So I say day."
+  },
+  {
+    "start": 2092.32,
+    "end": 2093.32,
+    "text": "Now I will hit you."
+  },
+  {
+    "start": 2093.32,
+    "end": 2095.32,
+    "text": "Put all of the things."
+  },
+  {
+    "start": 2095.32,
+    "end": 2099.84,
+    "text": "Top talking."
+  },
+  {
+    "start": 2099.84,
+    "end": 2113.64,
+    "text": "So it is day, month and year."
+  },
+  {
+    "start": 2113.64,
+    "end": 2119.12,
+    "text": "So I am going to access the data members of nested data structure."
+  },
+  {
+    "start": 2119.12,
+    "end": 2124.36,
+    "text": "Instance variable dot BOB which is the data member of my main data structure."
+  },
+  {
+    "start": 2124.36,
+    "end": 2127.36,
+    "text": "Followed by the data member of my nested structure."
+  },
+  {
+    "start": 2127.36,
+    "end": 2128.36,
+    "text": "Clear with this."
+  },
+  {
+    "start": 2128.36,
+    "end": 2129.36,
+    "text": "Yes."
+  },
+  {
+    "start": 2129.36,
+    "end": 2130.36,
+    "text": "Okay."
+  },
+  {
+    "start": 2130.36,
+    "end": 2136.36,
+    "text": "Clear with nested data structure."
+  },
+  {
+    "start": 2136.36,
+    "end": 2158.12,
+    "text": "This is an example of what named nested structure."
+  },
+  {
+    "start": 2158.12,
+    "end": 2165.12,
+    "text": "What is unnamed?"
+  },
+  {
+    "start": 2165.12,
+    "end": 2175.2,
+    "text": "I have, I can use this structure inside this structure wherever I used it somewhere here."
+  },
+  {
+    "start": 2175.2,
+    "end": 2180.04,
+    "text": "Can I use the same structure within another structure possible?"
+  },
+  {
+    "start": 2180.04,
+    "end": 2181.04,
+    "text": "Yes."
+  },
+  {
+    "start": 2181.04,
+    "end": 2185.84,
+    "text": "So this is an advantage of a named nested structure."
+  },
+  {
+    "start": 2185.84,
+    "end": 2188.64,
+    "text": "What is unnamed?"
+  },
+  {
+    "start": 2188.64,
+    "end": 2201.96,
+    "text": "Instead of doing this separately, I will define the structure within that structure itself."
+  },
+  {
+    "start": 2201.96,
+    "end": 2208.56,
+    "text": "Instead of doing it separately, unnamed nested structure, instead of doing it separately,"
+  },
+  {
+    "start": 2208.56,
+    "end": 2210.88,
+    "text": "I have role number named mark."
+  },
+  {
+    "start": 2210.88,
+    "end": 2212.72,
+    "text": "I want to store data of birth."
+  },
+  {
+    "start": 2212.72,
+    "end": 2214.72,
+    "text": "I will define the structure."
+  },
+  {
+    "start": 2214.72,
+    "end": 2215.72,
+    "text": "Clear with this."
+  },
+  {
+    "start": 2215.72,
+    "end": 2226.56,
+    "text": "This type of nested structure is called as unnamed."
+  },
+  {
+    "start": 2226.56,
+    "end": 2230.8,
+    "text": "Can I reuse this structure within another structure not possible?"
+  },
+  {
+    "start": 2230.8,
+    "end": 2234.32,
+    "text": "Named, I can reuse it in multiple structures."
+  },
+  {
+    "start": 2234.32,
+    "end": 2237.68,
+    "text": "Unnamed only within this structure, this structure is accessible."
+  },
+  {
+    "start": 2237.68,
+    "end": 2238.68,
+    "text": "Okay."
+  },
+  {
+    "start": 2238.68,
+    "end": 2239.68,
+    "text": "Yes."
+  },
+  {
+    "start": 2239.68,
+    "end": 2244.0,
+    "text": "How will I define a nested structure?"
+  },
+  {
+    "start": 2244.0,
+    "end": 2250.58,
+    "text": "S Rusty blood your data members close your flower brackets."
+  },
+  {
+    "start": 2250.58,
+    "end": 2259.48,
+    "text": "The name of this is nothing but the datamembar of the twoounds be Babel followed by a vice"
+  },
+  {
+    "start": 2259.48,
+    "end": 2263.08,
+    "text": "meco need."
+  },
+  {
+    "start": 2263.08,
+    "end": 2270.0,
+    "text": "Use me the same recipe, but what is the difference between named and unnamed?"
+  },
+  {
+    "start": 2270.0,
+    "end": 2274.88,
+    "text": "named nested structure can be reused in multiple structures."
+  },
+  {
+    "start": 2274.88,
+    "end": 2280.68,
+    "text": "This is an example of unnamed. Unnamed is only accessible within the main structure."
+  },
+  {
+    "start": 2280.68,
+    "end": 2286.24,
+    "text": "I cannot reuse this within another structure. This is the advantage of name structure over"
+  },
+  {
+    "start": 2286.24,
+    "end": 2288.04,
+    "text": "it and unnamed structure."
+  },
+  {
+    "start": 2288.04,
+    "end": 2304.18,
+    "text": "So, now you have an idea of how structure works. How I can declare initialize state data"
+  },
+  {
+    "start": 2304.18,
+    "end": 2310.12,
+    "text": "from the user. There are five more minutes. I just have two programs with respect to structure."
+  },
+  {
+    "start": 2310.12,
+    "end": 2314.64,
+    "text": "If you have understood the concept, then you must be able to do this simple two problem."
+  },
+  {
+    "start": 2314.64,
+    "end": 2316.64,
+    "text": "Start doing this everybody."
+  },
+  {
+    "start": 2326.64,
+    "end": 2332.64,
+    "text": "What is the discussion for one time? Are you there is not understanding, understanding?"
+  },
+  {
+    "start": 2332.64,
+    "end": 2340.64,
+    "text": "Then what are you discussing so much? Start opening a laptop. Start doing this work program."
+  },
+  {
+    "start": 2340.64,
+    "end": 2349.64,
+    "text": "You will not get your laptop almost all the days, right? Is he doing? Start doing those two programs."
+  },
+  {
+    "start": 2349.64,
+    "end": 2354.64,
+    "text": "What about you men? You also share all three sharing one laptop."
+  },
+  {
+    "start": 2370.64,
+    "end": 2384.64,
+    "text": "Again, I am going to share right at least right in practice."
+  }
+]

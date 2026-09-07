@@ -7,7 +7,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 def get_ml_teaching_segments(segments,keywords):
     """
     segments: list of dicts {"start", "end", "text"}
-    returns: list of dicts [{"start": float, "end": float}]
+    returns: list of dicts with start/end/text and optional topic metadata.
     """
     prompt = f"""
 You are analyzing a lecture transcript.
@@ -46,6 +46,13 @@ SEGMENT RULES:
 - Merge adjacent relevant segments
 - Do NOT split explanations into tiny pieces
 
+TOPIC RULES:
+- Give every selected segment a topic_id and topic_name.
+- topic_id must be a short, stable, lowercase snake_case identifier. Reuse the
+  exact same topic_id for the same concept throughout this transcript.
+- topic_name must be the clear, human-readable version of topic_id.
+- Do not invent near-duplicate topics for the same concept.
+
 OUTPUT RULES:
 - Output ONLY valid JSON
 - No explanations
@@ -54,7 +61,8 @@ OUTPUT RULES:
 
 OUTPUT FORMAT:
 [
-  {{ "start": <float>, "end": <float>, "text": "<string>" }}
+  {{ "start": <float>, "end": <float>, "text": "<string>",
+     "topic_id": "<lowercase_snake_case>", "topic_name": "<string>" }}
 ]
 
 TRANSCRIPT:
@@ -104,11 +112,18 @@ RETURN JSON ONLY:
             text = seg.get("text", "")      #to get text in selection
 
             if end > start:
-                cleaned.append({
+                cleaned_segment = {
                     "start": start,
                     "end": end,
                     "text": text.strip()
-                })
+                }
+                # Topic fields are deliberately optional so older model output
+                # continues to drive the existing condensed-video pipeline.
+                if isinstance(seg.get("topic_id"), str) and seg["topic_id"].strip():
+                    cleaned_segment["topic_id"] = seg["topic_id"].strip()
+                if isinstance(seg.get("topic_name"), str) and seg["topic_name"].strip():
+                    cleaned_segment["topic_name"] = seg["topic_name"].strip()
+                cleaned.append(cleaned_segment)
 
     return cleaned
 
@@ -186,4 +201,3 @@ Overfitting, Regularization, Hyperparameters,
 Datasets, Features, Labels,
 NumPy, Pandas, PyTorch, TensorFlow, Scikit-learn"""
 # increase speed ot 1.5 for topics aint relative , keep it 1 for important ones 
-

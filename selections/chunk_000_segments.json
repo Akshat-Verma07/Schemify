@@ -1,0 +1,62 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.1,
+    "text": "See, you told size 5, 5, 9 and 5, but what am I getting?"
+  },
+  {
+    "start": 44.08,
+    "end": 50.4,
+    "text": "It is a character, but compiler is going to allocate memory in multiples of 4."
+  },
+  {
+    "start": 61.16,
+    "end": 68.68,
+    "text": "So, how many bytes of memory gets padded or how many bytes get padded over here should"
+  },
+  {
+    "start": 69.68,
+    "end": 76.68,
+    "text": "So, 1 byte of is going to have actual data."
+  },
+  {
+    "start": 76.68,
+    "end": 83.68,
+    "text": "Okay."
+  },
+  {
+    "start": 83.68,
+    "end": 94.68,
+    "text": "Understood this, everybody."
+  },
+  {
+    "start": 94.68,
+    "end": 103.24,
+    "text": "So, here all of the 4 bytes is utilized to store the data in characters since 1 byte of memory"
+  },
+  {
+    "start": 117.84,
+    "end": 131.32,
+    "text": "So, here in this case first case integer was my first data structure."
+  },
+  {
+    "start": 155.44,
+    "end": 162.08,
+    "text": "In this case, the byte gate allocated depending on the date next data type."
+  },
+  {
+    "start": 171.92,
+    "end": 178.92,
+    "text": "So, what is my total size here in this particular case test 2 should also be 4."
+  },
+  {
+    "start": 240.6,
+    "end": 257.4,
+    "text": "Here with this, stop talking, I will skip this part, you can learn it on your home."
+  },
+  {
+    "start": 454.48,
+    "end": 460.8,
+    "text": "Again, character one data type, but it is my next data type integer."
+  }
+]

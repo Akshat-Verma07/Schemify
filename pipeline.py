@@ -7,6 +7,7 @@ from chunker import split_video
 from transcribe import transcribe
 from ollama_analyze import get_ml_teaching_segments
 from clip_video import clip_videos
+from topic_segmenter import create_topic_videos
 
 
 def merge_overlapping_segments(segments, gap=3.0):
@@ -81,6 +82,8 @@ def main():
 
     chunk_seconds = 8 * 60  # 8 minutes per chunk
 
+    topic_segment_records = []
+
     for idx, chunk in enumerate(chunks):
         print(f"\nProcessing chunk {idx+1}/{len(chunks)}")
 
@@ -104,15 +107,22 @@ def main():
         for seg in important:
             length = seg["end"] - seg["start"]
             if length < MIN_SEGMENT_LEN:
-                fixed.append({
+                expanded = {
                     "start": seg["start"],
                     "end": seg["start"] + MIN_SEGMENT_LEN,
                     "text": seg.get("text", "")
-                })
+                }
+                for key in ("topic_id", "topic_name"):
+                    if key in seg:
+                        expanded[key] = seg[key]
+                fixed.append(expanded)
             else:
                 fixed.append(seg)
 
         important = fixed
+
+      
+        topic_segments = [dict(seg) for seg in important if seg.get("topic_id")]
 
         important = merge_overlapping_segments(important, gap=0.3)
 
@@ -129,30 +139,35 @@ def main():
                         "end": seg["end"],
                         "text": seg["text"]
                     }) 
+            topic_segments = []
 
-
-
-        # Save per-chunk Ollama-selected segments
         os.makedirs("selections", exist_ok=True)
         with open(f"selections/{chunk_name}_segments.json", "w") as f:
             json.dump(important, f, indent=2)
 
 
-        # Convert absolute → chunk-local timestamps--  ensures each chunk start time is its
-        # respective timeline zero. This is crucial for accurate clipping
+    
         local_segments = []
         for seg in important:
             local_segments.append({
                 "start": max(0.0, seg["start"] - chunk_start),
                 "end": max(0.0, seg["end"] - chunk_start)
             })
-        # stitching all videos
         clip_videos(chunk, local_segments, clip_dir=f"clips/{chunk_name}")
+
+    
+        topic_segment_records.extend(
+            {"source_video": chunk, "chunk_start": chunk_start, "segment": seg}
+            for seg in topic_segments
+        )
 
 
 
     print("Merging all clips...")
     merge_clips()
+    if topic_segment_records:
+        print("Creating topic-wise videos...")
+        create_topic_videos(topic_segment_records, output_root="output/topics")
     print("DONE ✅✅")
 
 

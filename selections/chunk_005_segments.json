@@ -1,0 +1,30 @@
+[
+  {
+    "start": 2400.0,
+    "end": 2425.32,
+    "text": "What are the data members inside the structure for first program? I want to store x coordinate and I want to store y coordinate. So, how many data members inside the structure? Two, both of them will have the data type in t's here, okay. I am going to define a instance variable how try to take the input from the user displayed. That is it. It is a very simple program.",
+    "topic_id": "structure_definition",
+    "topic_name": "Defining Structures"
+  },
+  {
+    "start": 2455.32,
+    "end": 2494.32,
+    "text": "What are the two data members inside the structure? So, this is how I am going to define the structure within the main function. I am going to declare an instance variable called s1 for lab, okay. I am going to declare an instance variable using the instance variable. I have to take the input of x and y from the user. What should be my second argument here? What should be my second argument to take the input for x? Address operator. How will I access it using the instance variable which is my instance variable? Dot.",
+    "topic_id": "structure_access",
+    "topic_name": "Accessing Structure Members"
+  },
+  {
+    "start": 2574.32,
+    "end": 2615.32,
+    "text": "You have three subjects and you want to enter the, store the marks of one student having",
+    "topic_id": "structure_extension",
+    "topic_name": "Extending Structures"
+  },
+  {
+    "start": 2631.32,
+    "end": 2650.32,
+    "text": "So, we will first study what are structures and functions and then we will see what is array of structure, okay.",
+    "topic_id": "structure_functions",
+    "topic_name": "Structures and Functions"
+  }
+]

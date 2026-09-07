@@ -7,7 +7,7 @@ def split_video(video_path, chunk_minutes=8):
     chunk_seconds = chunk_minutes * 60
     output_pattern = "chunks/chunk_%03d.mp4"
 
-    # ❌ Remove -reset_timestamps
+    #  Remove -reset_timestamps
     subprocess.run([
         "ffmpeg", "-y",
         "-i", video_path,

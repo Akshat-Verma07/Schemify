@@ -1,0 +1,792 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.1,
+    "text": "See, you told size 5, 5, 9 and 5, but what am I getting?"
+  },
+  {
+    "start": 6.1,
+    "end": 9.08,
+    "text": "8, 8, 8, 8, 8 into 12."
+  },
+  {
+    "start": 9.08,
+    "end": 11.12,
+    "text": "How is this happening?"
+  },
+  {
+    "start": 11.12,
+    "end": 16.12,
+    "text": "This is happening because of implementation specific sum, padding is happening that is"
+  },
+  {
+    "start": 16.12,
+    "end": 19.6,
+    "text": "extra by surprise of memory is getting allocated at each case."
+  },
+  {
+    "start": 19.6,
+    "end": 21.72,
+    "text": "But when does this happen?"
+  },
+  {
+    "start": 21.72,
+    "end": 24.2,
+    "text": "So, let me consider test 1."
+  },
+  {
+    "start": 24.2,
+    "end": 27.44,
+    "text": "See, I am not going to repeat this and it is very difficult to understand."
+  },
+  {
+    "start": 27.44,
+    "end": 28.44,
+    "text": "Please pay attention."
+  },
+  {
+    "start": 28.44,
+    "end": 33.92,
+    "text": "Test 1 has what is my first data type?"
+  },
+  {
+    "start": 33.92,
+    "end": 37.48,
+    "text": "What is my first data type for test 1?"
+  },
+  {
+    "start": 37.48,
+    "end": 40.52,
+    "text": "How many bytes gets allocated for integer?"
+  },
+  {
+    "start": 40.52,
+    "end": 41.52,
+    "text": "4."
+  },
+  {
+    "start": 41.52,
+    "end": 44.08,
+    "text": "What is my second data type?"
+  },
+  {
+    "start": 44.08,
+    "end": 50.4,
+    "text": "It is a character, but compiler is going to allocate memory in multiples of 4."
+  },
+  {
+    "start": 50.4,
+    "end": 51.4,
+    "text": "Okay."
+  },
+  {
+    "start": 51.4,
+    "end": 56.24,
+    "text": "So, if I assign 1, what is the total size of my structure?"
+  },
+  {
+    "start": 56.24,
+    "end": 58.16,
+    "text": "5 multiple of 4."
+  },
+  {
+    "start": 58.16,
+    "end": 60.16,
+    "text": "What is my next multiple?"
+  },
+  {
+    "start": 60.16,
+    "end": 61.16,
+    "text": "8."
+  },
+  {
+    "start": 61.16,
+    "end": 68.68,
+    "text": "So, how many bytes of memory gets padded or how many bytes get padded over here should"
+  },
+  {
+    "start": 68.68,
+    "end": 69.68,
+    "text": "be 3."
+  },
+  {
+    "start": 69.68,
+    "end": 76.68,
+    "text": "So, 1 byte of is going to have actual data."
+  },
+  {
+    "start": 76.68,
+    "end": 83.68,
+    "text": "Okay."
+  },
+  {
+    "start": 83.68,
+    "end": 94.68,
+    "text": "Understood this, everybody."
+  },
+  {
+    "start": 94.68,
+    "end": 103.24,
+    "text": "So, here all of the 4 bytes is utilized to store the data in characters since 1 byte of memory"
+  },
+  {
+    "start": 103.24,
+    "end": 105.24,
+    "text": "is enough to store the data."
+  },
+  {
+    "start": 105.24,
+    "end": 111.08,
+    "text": "1 byte is used to store the data, other 3 bytes are padded here with this."
+  },
+  {
+    "start": 111.08,
+    "end": 112.08,
+    "text": "Yes."
+  },
+  {
+    "start": 112.08,
+    "end": 117.84,
+    "text": "Now, let me know for test 2 what happened."
+  },
+  {
+    "start": 117.84,
+    "end": 131.32,
+    "text": "So, here in this case first case integer was my first data structure."
+  },
+  {
+    "start": 131.32,
+    "end": 133.64,
+    "text": "My next data type was a character."
+  },
+  {
+    "start": 133.64,
+    "end": 137.0,
+    "text": "Is there any other next data type after character?"
+  },
+  {
+    "start": 137.0,
+    "end": 139.68,
+    "text": "No, this is my last data type."
+  },
+  {
+    "start": 139.68,
+    "end": 144.12,
+    "text": "Usually, padding happens when I compare it to the next data type."
+  },
+  {
+    "start": 144.12,
+    "end": 149.84,
+    "text": "Since, there is no next data type in this particular case compiler is going to check the"
+  },
+  {
+    "start": 149.84,
+    "end": 150.84,
+    "text": "total memory."
+  },
+  {
+    "start": 150.84,
+    "end": 155.44,
+    "text": "If it is not a multiple of 4, padding happens in the first case."
+  },
+  {
+    "start": 155.44,
+    "end": 162.08,
+    "text": "In this case, the byte gate allocated depending on the date next data type."
+  },
+  {
+    "start": 162.08,
+    "end": 164.08,
+    "text": "What is my next data type?"
+  },
+  {
+    "start": 164.08,
+    "end": 165.08,
+    "text": "4."
+  },
+  {
+    "start": 165.08,
+    "end": 167.68,
+    "text": "It is an integer and it has to be how many bytes?"
+  },
+  {
+    "start": 167.68,
+    "end": 168.68,
+    "text": "4."
+  },
+  {
+    "start": 168.68,
+    "end": 171.92,
+    "text": "So, depending on the next data type padding happens over here."
+  },
+  {
+    "start": 171.92,
+    "end": 178.92,
+    "text": "So, what is my total size here in this particular case test 2 should also be 4."
+  },
+  {
+    "start": 178.92,
+    "end": 179.92,
+    "text": "4."
+  },
+  {
+    "start": 179.92,
+    "end": 180.92,
+    "text": "4."
+  },
+  {
+    "start": 180.92,
+    "end": 181.92,
+    "text": "4."
+  },
+  {
+    "start": 181.92,
+    "end": 182.92,
+    "text": "4."
+  },
+  {
+    "start": 182.92,
+    "end": 183.92,
+    "text": "4."
+  },
+  {
+    "start": 183.92,
+    "end": 184.92,
+    "text": "4."
+  },
+  {
+    "start": 184.92,
+    "end": 185.92,
+    "text": "4."
+  },
+  {
+    "start": 185.92,
+    "end": 186.92,
+    "text": "4."
+  },
+  {
+    "start": 186.92,
+    "end": 187.92,
+    "text": "4."
+  },
+  {
+    "start": 187.92,
+    "end": 188.92,
+    "text": "4."
+  },
+  {
+    "start": 188.92,
+    "end": 189.92,
+    "text": "4."
+  },
+  {
+    "start": 189.92,
+    "end": 190.92,
+    "text": "4."
+  },
+  {
+    "start": 190.92,
+    "end": 191.92,
+    "text": "4."
+  },
+  {
+    "start": 191.92,
+    "end": 192.92,
+    "text": "4."
+  },
+  {
+    "start": 192.92,
+    "end": 193.92,
+    "text": "4."
+  },
+  {
+    "start": 193.92,
+    "end": 194.92,
+    "text": "4."
+  },
+  {
+    "start": 194.92,
+    "end": 195.92,
+    "text": "4."
+  },
+  {
+    "start": 195.92,
+    "end": 196.92,
+    "text": "4."
+  },
+  {
+    "start": 196.92,
+    "end": 197.92,
+    "text": "4."
+  },
+  {
+    "start": 197.92,
+    "end": 198.92,
+    "text": "4."
+  },
+  {
+    "start": 198.92,
+    "end": 199.92,
+    "text": "4."
+  },
+  {
+    "start": 199.92,
+    "end": 200.92,
+    "text": "4."
+  },
+  {
+    "start": 200.92,
+    "end": 201.92,
+    "text": "4."
+  },
+  {
+    "start": 201.92,
+    "end": 202.92,
+    "text": "4."
+  },
+  {
+    "start": 202.92,
+    "end": 203.92,
+    "text": "5."
+  },
+  {
+    "start": 203.92,
+    "end": 204.92,
+    "text": "5."
+  },
+  {
+    "start": 204.92,
+    "end": 205.92,
+    "text": "4."
+  },
+  {
+    "start": 205.92,
+    "end": 206.92,
+    "text": "5."
+  },
+  {
+    "start": 206.92,
+    "end": 207.92,
+    "text": "4."
+  },
+  {
+    "start": 207.92,
+    "end": 208.92,
+    "text": "6."
+  },
+  {
+    "start": 208.92,
+    "end": 209.92,
+    "text": "5."
+  },
+  {
+    "start": 209.92,
+    "end": 210.92,
+    "text": "6."
+  },
+  {
+    "start": 210.92,
+    "end": 211.92,
+    "text": "6."
+  },
+  {
+    "start": 211.92,
+    "end": 212.92,
+    "text": "4."
+  },
+  {
+    "start": 212.92,
+    "end": 213.92,
+    "text": "6."
+  },
+  {
+    "start": 213.92,
+    "end": 214.92,
+    "text": "9."
+  },
+  {
+    "start": 214.92,
+    "end": 215.92,
+    "text": "2."
+  },
+  {
+    "start": 215.92,
+    "end": 216.92,
+    "text": "5."
+  },
+  {
+    "start": 216.92,
+    "end": 218.92,
+    "text": "4."
+  },
+  {
+    "start": 218.92,
+    "end": 219.92,
+    "text": "6."
+  },
+  {
+    "start": 219.92,
+    "end": 220.92,
+    "text": "7."
+  },
+  {
+    "start": 220.92,
+    "end": 221.92,
+    "text": "4."
+  },
+  {
+    "start": 221.92,
+    "end": 222.92,
+    "text": "6."
+  },
+  {
+    "start": 222.92,
+    "end": 223.92,
+    "text": "6."
+  },
+  {
+    "start": 223.92,
+    "end": 224.92,
+    "text": "6."
+  },
+  {
+    "start": 224.92,
+    "end": 225.92,
+    "text": "6."
+  },
+  {
+    "start": 225.92,
+    "end": 226.92,
+    "text": "6."
+  },
+  {
+    "start": 226.92,
+    "end": 227.92,
+    "text": "6."
+  },
+  {
+    "start": 227.92,
+    "end": 228.92,
+    "text": "6."
+  },
+  {
+    "start": 228.92,
+    "end": 229.92,
+    "text": "6."
+  },
+  {
+    "start": 229.92,
+    "end": 230.92,
+    "text": "10."
+  },
+  {
+    "start": 230.92,
+    "end": 236.36,
+    "text": "No, because both of them occupy Zahumini one and one."
+  },
+  {
+    "start": 236.36,
+    "end": 238.2,
+    "text": "So there is no difference."
+  },
+  {
+    "start": 238.2,
+    "end": 240.6,
+    "text": "So no padding happens in this particular case."
+  },
+  {
+    "start": 240.6,
+    "end": 257.4,
+    "text": "Here with this, stop talking, I will skip this part, you can learn it on your home."
+  },
+  {
+    "start": 257.4,
+    "end": 260.24,
+    "text": "Why is the class so much noisy today?"
+  },
+  {
+    "start": 261.12,
+    "end": 264.4,
+    "text": "After long weekend you guys are hyperactive, is it?"
+  },
+  {
+    "start": 264.4,
+    "end": 267.52,
+    "text": "Stop talking, guys."
+  },
+  {
+    "start": 269.92,
+    "end": 274.24,
+    "text": "What should be the number of bytes in this particular case?"
+  },
+  {
+    "start": 274.96,
+    "end": 275.84,
+    "text": "One or four?"
+  },
+  {
+    "start": 277.2,
+    "end": 278.64,
+    "text": "What is my next data type?"
+  },
+  {
+    "start": 279.76,
+    "end": 280.72,
+    "text": "Is there a difference?"
+  },
+  {
+    "start": 281.44,
+    "end": 282.64,
+    "text": "Then what should be done?"
+  },
+  {
+    "start": 282.64,
+    "end": 284.08,
+    "text": "Padding should be done."
+  },
+  {
+    "start": 284.08,
+    "end": 286.48,
+    "text": "So what is the total bytes over here?"
+  },
+  {
+    "start": 290.72,
+    "end": 292.48,
+    "text": "One plus three or one plus two?"
+  },
+  {
+    "start": 293.68,
+    "end": 294.96,
+    "text": "Why one plus two?"
+  },
+  {
+    "start": 294.96,
+    "end": 296.4,
+    "text": "What is the total size?"
+  },
+  {
+    "start": 297.04,
+    "end": 300.88,
+    "text": "So in this case for sure it's going to be four."
+  },
+  {
+    "start": 301.44,
+    "end": 305.2,
+    "text": "But total size should be a multiple of four."
+  },
+  {
+    "start": 305.44,
+    "end": 308.4,
+    "text": "So what should be the number of bytes that will be padded here?"
+  },
+  {
+    "start": 308.4,
+    "end": 309.12,
+    "text": "Two or three?"
+  },
+  {
+    "start": 310.64,
+    "end": 313.68,
+    "text": "One plus two or three?"
+  },
+  {
+    "start": 313.68,
+    "end": 315.44,
+    "text": "If it is three, what is the total bytes?"
+  },
+  {
+    "start": 315.44,
+    "end": 316.72,
+    "text": "Nine."
+  },
+  {
+    "start": 316.72,
+    "end": 319.36,
+    "text": "Nine is nine a multiple of four."
+  },
+  {
+    "start": 319.36,
+    "end": 320.96,
+    "text": "So how many bytes gets padded?"
+  },
+  {
+    "start": 324.8,
+    "end": 325.6,
+    "text": "Clear with this."
+  },
+  {
+    "start": 327.44,
+    "end": 329.84,
+    "text": "Everybody did understand or should I repeat it?"
+  },
+  {
+    "start": 334.32,
+    "end": 335.44,
+    "text": "Let me know in this case."
+  },
+  {
+    "start": 339.04,
+    "end": 341.12,
+    "text": "It is an integer for sure four."
+  },
+  {
+    "start": 341.84,
+    "end": 343.92,
+    "text": "Character occupies one byte."
+  },
+  {
+    "start": 343.92,
+    "end": 346.32,
+    "text": "But what is my next data type for?"
+  },
+  {
+    "start": 346.32,
+    "end": 347.44,
+    "text": "So how many bytes?"
+  },
+  {
+    "start": 348.08,
+    "end": 348.88,
+    "text": "Three or two?"
+  },
+  {
+    "start": 350.56,
+    "end": 351.2,
+    "text": "Three or two?"
+  },
+  {
+    "start": 361.44,
+    "end": 366.8,
+    "text": "It should be three and the total size will be a multiple of four."
+  },
+  {
+    "start": 367.36,
+    "end": 369.84,
+    "text": "Under this, everybody."
+  },
+  {
+    "start": 371.76,
+    "end": 374.16,
+    "text": "Please go through the code."
+  },
+  {
+    "start": 374.16,
+    "end": 377.2,
+    "text": "If anybody has doubts, please ask me."
+  },
+  {
+    "start": 385.2,
+    "end": 389.04,
+    "text": "If anybody has doubts with respect to pounding, please ask me."
+  },
+  {
+    "start": 401.84,
+    "end": 402.8,
+    "text": "Character integer."
+  },
+  {
+    "start": 407.84,
+    "end": 408.8,
+    "text": "Character integer."
+  },
+  {
+    "start": 408.8,
+    "end": 409.76,
+    "text": "Character integer."
+  },
+  {
+    "start": 424.64,
+    "end": 425.76,
+    "text": "Let me know in this case."
+  },
+  {
+    "start": 425.84,
+    "end": 431.36,
+    "text": "Is this a 16 multiple of four?"
+  },
+  {
+    "start": 432.72,
+    "end": 436.8,
+    "text": "So it should be what is the number of bytes total"
+  },
+  {
+    "start": 436.8,
+    "end": 439.12,
+    "text": "bytes allocated for this particular structure?"
+  },
+  {
+    "start": 439.12,
+    "end": 441.44,
+    "text": "See this type of question will surely come as"
+  },
+  {
+    "start": 441.44,
+    "end": 442.8,
+    "text": "MCQs to guess the out."
+  },
+  {
+    "start": 442.8,
+    "end": 444.64,
+    "text": "Guess the total bytes of memory."
+  },
+  {
+    "start": 444.64,
+    "end": 447.44,
+    "text": "If you don't understand, it's very difficult to guess the out."
+  },
+  {
+    "start": 448.96,
+    "end": 451.84,
+    "text": "Character is one byte, but what is my next data type?"
+  },
+  {
+    "start": 451.84,
+    "end": 452.72,
+    "text": "Integer."
+  },
+  {
+    "start": 452.72,
+    "end": 453.6,
+    "text": "So four."
+  },
+  {
+    "start": 453.6,
+    "end": 454.4,
+    "text": "Four."
+  },
+  {
+    "start": 454.48,
+    "end": 460.8,
+    "text": "Again, character one data type, but it is my next data type integer."
+  },
+  {
+    "start": 460.8,
+    "end": 461.6,
+    "text": "It should be four."
+  },
+  {
+    "start": 461.6,
+    "end": 462.56,
+    "text": "So what is the total?"
+  },
+  {
+    "start": 463.28,
+    "end": 465.84,
+    "text": "Should be 64 test 2."
+  },
+  {
+    "start": 473.84,
+    "end": 474.96,
+    "text": "Test 2 is 60."
+  },
+  {
+    "start": 479.36,
+    "end": 479.84,
+    "text": "Utan."
+  },
+  {
+    "start": 480.72,
+    "end": 481.92,
+    "text": "Character character."
+  }
+]

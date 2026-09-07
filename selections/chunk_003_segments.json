@@ -1,0 +1,23 @@
+[
+  {
+    "start": 1440.0,
+    "end": 1586.3,
+    "text": "So, type this is mostly used with user design data type like structure when names of the data type becomes slightly longer. So, instead of using struct student I can use a alternative very small name by using type this. It is like an alternative name for any data for example, if I want to change the so, how will I create instance variables I am using followed by name of the structure it is very long can I give some short form or an alternative name using type this. So, type this is mostly used with user design data type like structure when names of the data type becomes slightly longer. So, instead of using struct student I can use a alternative very small name by using type this. It is like an alternative name for any data for example, if I want to change the so, how will I create instance variables I am using followed by name of the structure it is very long can I give some short form or an alternative name using type this.",
+    "topic_id": "typedef",
+    "topic_name": "typedef (Type Definition)"
+  },
+  {
+    "start": 1599.62,
+    "end": 1750.66,
+    "text": "Can I have structure inside another structure possible yes that is called as method structure.",
+    "topic_id": "nested_structures",
+    "topic_name": "Nested Structures"
+  },
+  {
+    "start": 1758.06,
+    "end": 1897.44,
+    "text": "So, there are three types of nested structure named unnamed and using a pointer we are going to mainly concentrate on named and unnamed named this is an example ok named this is an example. Now, I want to initialize the values day month and year how will I do that.",
+    "topic_id": "nested_structures",
+    "topic_name": "Nested Structures"
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "start": 2400.0,
+    "end": 2413.12,
+    "text": "What are the data members inside the structure for first program?"
+  },
+  {
+    "start": 2413.12,
+    "end": 2417.04,
+    "text": "I want to store x coordinate and I want to store y coordinate."
+  },
+  {
+    "start": 2417.04,
+    "end": 2420.04,
+    "text": "So, how many data members inside the structure?"
+  },
+  {
+    "start": 2420.04,
+    "end": 2424.32,
+    "text": "Two, both of them will have the data type in t's here, okay."
+  },
+  {
+    "start": 2424.32,
+    "end": 2425.32,
+    "text": "Next."
+  },
+  {
+    "start": 2426.32,
+    "end": 2433.32,
+    "text": "I am going to define a instance variable how try to take the input from the user displayed."
+  },
+  {
+    "start": 2433.32,
+    "end": 2434.32,
+    "text": "That is it."
+  },
+  {
+    "start": 2434.32,
+    "end": 2436.32,
+    "text": "It is a very simple program."
+  },
+  {
+    "start": 2455.32,
+    "end": 2476.32,
+    "text": "What are the two data members inside the structure?"
+  },
+  {
+    "start": 2476.32,
+    "end": 2483.32,
+    "text": "In text sign."
+  },
+  {
+    "start": 2483.32,
+    "end": 2486.32,
+    "text": "What is compulsory semicolon, okay."
+  },
+  {
+    "start": 2486.32,
+    "end": 2494.32,
+    "text": "So, this is how I am going to define the structure within the main function."
+  },
+  {
+    "start": 2494.32,
+    "end": 2505.32,
+    "text": "I am going to declare an instance variable called s1 for lab, okay."
+  },
+  {
+    "start": 2505.32,
+    "end": 2509.32,
+    "text": "I am going to declare an instance variable using the instance variable."
+  },
+  {
+    "start": 2509.32,
+    "end": 2517.32,
+    "text": "I have to take the input of x and y from the user."
+  },
+  {
+    "start": 2517.32,
+    "end": 2522.32,
+    "text": "What should be my second argument here?"
+  },
+  {
+    "start": 2522.32,
+    "end": 2527.32,
+    "text": "What should be my second argument to take the input for x?"
+  },
+  {
+    "start": 2527.32,
+    "end": 2529.32,
+    "text": "Address operator."
+  },
+  {
+    "start": 2529.32,
+    "end": 2534.32,
+    "text": "How will I access it using the instance variable which is my instance variable?"
+  },
+  {
+    "start": 2534.32,
+    "end": 2535.32,
+    "text": "Dot."
+  },
+  {
+    "start": 2535.32,
+    "end": 2556.32,
+    "text": "So, whatever is the format you can print that format over here."
+  },
+  {
+    "start": 2556.32,
+    "end": 2570.32,
+    "text": "Very simple program."
+  },
+  {
+    "start": 2570.32,
+    "end": 2574.32,
+    "text": "Likewise, do this second program."
+  },
+  {
+    "start": 2574.32,
+    "end": 2581.32,
+    "text": "You have three subjects and you want to enter the, store the marks of one student having"
+  },
+  {
+    "start": 2581.32,
+    "end": 2584.32,
+    "text": "three subjects and display it."
+  },
+  {
+    "start": 2584.32,
+    "end": 2591.32,
+    "text": "What changes will I make to the same program?"
+  },
+  {
+    "start": 2591.32,
+    "end": 2594.32,
+    "text": "What changes will I make to the same program?"
+  },
+  {
+    "start": 2594.32,
+    "end": 2598.32,
+    "text": "I have another variable, okay."
+  },
+  {
+    "start": 2598.32,
+    "end": 2602.32,
+    "text": "Three subjects mark for one student."
+  },
+  {
+    "start": 2602.32,
+    "end": 2607.32,
+    "text": "Take the input from the user for three subjects."
+  },
+  {
+    "start": 2607.32,
+    "end": 2613.32,
+    "text": "So, by if you are trying to do these two programs, then you will have a little bit idea of how"
+  },
+  {
+    "start": 2613.32,
+    "end": 2615.32,
+    "text": "structure works, okay."
+  },
+  {
+    "start": 2615.32,
+    "end": 2617.32,
+    "text": "I am doing this only for one student."
+  },
+  {
+    "start": 2617.32,
+    "end": 2624.32,
+    "text": "If I have to do it for multiple students, then we are going to deal with array of structure,"
+  },
+  {
+    "start": 2624.32,
+    "end": 2625.32,
+    "text": "okay."
+  },
+  {
+    "start": 2625.32,
+    "end": 2631.32,
+    "text": "So, we will first study what are structures and functions and then we will see what is array"
+  },
+  {
+    "start": 2631.32,
+    "end": 2633.32,
+    "text": "of structure, okay."
+  },
+  {
+    "start": 2633.32,
+    "end": 2638.32,
+    "text": "Next class, we will see functions and structures and then we will see array of structures."
+  },
+  {
+    "start": 2638.32,
+    "end": 2642.32,
+    "text": "After array of structures, again there is array of structures to point out."
+  },
+  {
+    "start": 2642.32,
+    "end": 2646.32,
+    "text": "So, it is very complicated guys."
+  },
+  {
+    "start": 2646.32,
+    "end": 2653.32,
+    "text": "So, make sure you go home, study structures and come to next class or else it will be very"
+  },
+  {
+    "start": 2653.32,
+    "end": 2676.32,
+    "text": "difficult for you guys to understand."
+  },
+  {
+    "start": 2676.32,
+    "end": 2680.32,
+    "text": "How?"
+  },
+  {
+    "start": 2681.32,
+    "end": 2687.32,
+    "text": "No, are you the instance variable?"
+  },
+  {
+    "start": 2687.32,
+    "end": 2698.32,
+    "text": "Can you just need to store the data basically?"
+  },
+  {
+    "start": 2698.32,
+    "end": 2713.32,
+    "text": "Answer your attendance, one, two, three, four, five, six, seven, seven, eight."
+  },
+  {
+    "start": 2714.32,
+    "end": 2742.32,
+    "text": "Eight is also absent 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 27, 28, 28,"
+  },
+  {
+    "start": 2742.32,
+    "end": 2770.32,
+    "text": "29, 30, 31, 30, 31, 31, 31, 32, 33, 34, 34, 35, 36, 37, 38, 38, 39, 40, 41, 41,"
+  },
+  {
+    "start": 2770.32,
+    "end": 2798.32,
+    "text": "43, 42, 43, 42, 43, 43, 44, 45, 46, 47, 48, 48, 49, 50, 50, 45, 45, 45, 45,"
+  },
+  {
+    "start": 2798.32,
+    "end": 2825.32,
+    "text": "51, 52, 53, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 64, Disha, 65,"
+  },
+  {
+    "start": 2825.32,
+    "end": 2833.32,
+    "text": "60, 70, 17, 18, 27, 28, 41, 42, 43, 44, and 50, 50,"
+  }
+]
